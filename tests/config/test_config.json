@@ -1,0 +1,13 @@
+{
+    "input_dir": "test_data/sample_video",
+    "scenario_file": "test_data/sample_scenario.json",
+    "output_dir": "test_outputs",
+    "options": {
+        "language": "ja",
+        "timecode_format": "NDF",
+        "frame_rate": 30,
+        "max_scenes": 10,
+        "min_scene_duration": 2.0,
+        "max_scene_duration": 30.0
+    }
+} 

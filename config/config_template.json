@@ -1,0 +1,13 @@
+{
+    "input_dir": "video_nodes/",
+    "scenario_file": "scenario.json",
+    "output_dir": "outputs/",
+    "options": {
+        "language": "ja",
+        "timecode_format": "NDF",
+        "frame_rate": 30,
+        "max_scenes": 50,
+        "min_scene_duration": 3.0,
+        "max_scene_duration": 60.0
+    }
+} 

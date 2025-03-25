@@ -32,14 +32,19 @@ logs/
 *.tmp
 debug.log
 temp/
+debug_*.py
+test_run*.py
+run_app.py
 
 # 環境設定
 .env
 .env.*
 !.env.example
+.dependencies.json
 
 # テスト出力
 test_outputs/
+-p/
 
 # IDE設定
 .idea/
