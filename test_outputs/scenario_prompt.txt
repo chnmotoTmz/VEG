@@ -1,0 +1,111 @@
+﻿{
+  "title": "大山で学ぶ、命の授業",
+  "concept": "準備不足の大学生グループが、冬の氷点下の大山登山に挑戦する様子を通して、健康維持と適切な登山準備の重要性を学ぶドキュメンタリー。日本の大学生教育における実践的なリスク管理の不足点を浮き彫りにする。",
+  "themes": [
+    "健康維持",
+    "登山準備",
+    "リスク管理",
+    "大学生教育",
+    "安全意識"
+  ],
+  "sections": [
+    {
+      "section_id": "intro",
+      "type": "intro",
+      "title": "軽率な決断",
+      "description": "軽装で大山登山に挑む大学生グループを紹介。彼らの準備不足と、その背景にある日本の大学生教育の問題点を示唆する。",
+      "key_messages": [
+        "軽率な行動の危険性",
+        "適切な準備の重要性"
+      ],
+      "duration": 60,
+      "content_ids": [
+        "intro_footage_1",
+        "intro_interview_1"
+      ],
+      "effects": [
+        "テキストオーバーレイ",
+        "音楽"
+      ]
+    },
+    {
+      "section_id": "main_1",
+      "type": "main",
+      "title": "試練の登山道",
+      "description": "登山開始から遭難寸前まで。悪天候、体力不足、装備不足などが次々と襲いかかる。グループ内の意見対立や、危機管理能力の低さが浮き彫りになる。",
+      "key_messages": [
+        "体力・装備の重要性",
+        "チームワークとリーダーシップ",
+        "リスク認識の欠如"
+      ],
+      "duration": 300,
+      "content_ids": [
+        "climbing_footage_1",
+        "climbing_footage_2",
+        "interview_2",
+        "interview_3",
+        "map_animation"
+      ],
+      "effects": [
+        "ドローン映像",
+        "緊迫感を高める音楽",
+        "スローモーション"
+      ]
+    },
+    {
+      "section_id": "main_2",
+      "type": "main",
+      "title": "危機と反省",
+      "description": "遭難寸前の状況、メンバーの負傷、そして下山後の反省。経験を通して、健康維持と適切な準備の大切さを痛感する。専門家へのインタビューを通して、日本の大学生教育におけるリスク管理の不足点を分析する。",
+      "key_messages": [
+        "危険回避の重要性",
+        "事後分析による学び",
+        "大学教育におけるリスクマネジメントの必要性"
+      ],
+      "duration": 240,
+      "content_ids": [
+        "rescue_footage",
+        "interview_expert_1",
+        "interview_expert_2",
+        "reflection_footage"
+      ],
+      "effects": [
+        "インタビュー映像の切り替え",
+        "データグラフィック",
+        "静止画"
+      ]
+    },
+    {
+      "section_id": "outro",
+      "type": "outro",
+      "title": "未来への備え",
+      "description": "登山を終えた学生たちの未来への決意。適切な準備の重要性、そしてリスク管理の意識を高めることの大切さを改めて訴える。",
+      "key_messages": [
+        "学びの大切さ",
+        "安全な登山、人生を送るための準備"
+      ],
+      "duration": 60,
+      "content_ids": [
+        "outro_footage_1",
+        "outro_interview_1"
+      ],
+      "effects": [
+        "希望に満ちた音楽",
+        "テキストオーバーレイ"
+      ]
+    }
+  ],
+  "narration": {
+    "style": "落ち着いた語り口",
+    "tone": "客観的で、時に感情的",
+    "keywords": [
+      "大山",
+      "登山",
+      "リスク管理",
+      "大学生",
+      "教育",
+      "安全",
+      "健康"
+    ]
+  }
+}

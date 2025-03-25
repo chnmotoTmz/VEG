@@ -1,0 +1,12 @@
+serpapi
+srt
+openai
+python-dotenv
+google-generativeai
+dearpygui==1.10.1
+gradio==4.19.2
+moviepy==1.0.3
+tkinter
+numpy
+pillow
+ffmpeg-python

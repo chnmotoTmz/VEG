@@ -1,0 +1,687 @@
+{
+  "file_path": "G:\\100GOPRO\\GH012562.MP4",
+  "metadata": {
+    "filename": "GH012562.MP4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 59.94005994005994,
+    "duration": 221.221,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "size": 836668975,
+    "bitrate": 30256403,
+    "created_at": "2025-03-25T00:17:43.973123"
+  },
+  "summary": {
+    "title": "冬の準備不足？大山登山記録（氷点下での挑戦）",
+    "overview": "2月8日（土曜日）に、6月頃にヒルで撤退した大山に再挑戦する様子を記録した動画。自宅は寒かったものの、健康維持のため登山を決意。山頂付近は氷点下で雪山装備が必要だった。出発が遅れ、準備も不十分なまま登山を開始する様子が描かれている。",
+    "topics": [
+      "冬の登山",
+      "大山登山",
+      "健康維持",
+      "準備不足",
+      "氷点下登山",
+      "雪山装備"
+    ],
+    "filming_date": "2024-02-08",
+    "location": "大山",
+    "weather": [
+      "氷点下",
+      "雪"
+    ],
+    "purpose": "健康維持",
+    "transportation": "言及なし",
+    "starting_point": "自宅（横浜周辺と推測）",
+    "destination": "大山山頂",
+    "scene_count": 8,
+    "total_duration": 221.221,
+    "landscape_summary": {
+      "main_environments": [
+        "山岳",
+        "雪山"
+      ],
+      "terrain_features": [
+        "山頂付近は氷点下"
+      ],
+      "notable_views": []
+    },
+    "gopro_start_time": "2025-03-25T00:18:56.996071"
+  },
+  "scenes": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 27.3275,
+      "duration": 27.3275,
+      "keyframe_path": "keyframes\\keyframe_0000.jpg",
+      "preview_path": "previews\\preview_0000.mp4",
+      "transcripts": [
+        {
+          "start": 0.34,
+          "end": 6.78,
+          "text": "おはようございます"
+        },
+        {
+          "start": 6.78,
+          "end": 8.78,
+          "text": "今日は2月の8日ですね"
+        },
+        {
+          "start": 8.78,
+          "end": 12.29,
+          "text": "土曜日"
+        },
+        {
+          "start": 12.29,
+          "end": 15.18,
+          "text": "ちょっとね、私はやっぱりね"
+        },
+        {
+          "start": 15.18,
+          "end": 17.41,
+          "text": "山に登らないと"
+        },
+        {
+          "start": 17.41,
+          "end": 19.41,
+          "text": "健康を害するというのがね"
+        },
+        {
+          "start": 19.41,
+          "end": 21.41,
+          "text": "分かってきてますからね"
+        },
+        {
+          "start": 21.41,
+          "end": 23.63,
+          "text": "自宅は寒かったんですけどね"
+        },
+        {
+          "start": 23.63,
+          "end": 25.63,
+          "text": "やっぱりね"
+        },
+        {
+          "start": 25.63,
+          "end": 27.63,
+          "text": "今日は登ることにしましたよ"
+        }
+      ],
+      "transcript": "おはようございます 今日は2月の8日ですね 土曜日 ちょっとね、私はやっぱりね 山に登らないと 健康を害するというのがね 分かってきてますからね 自宅は寒かったんですけどね やっぱりね 今日は登ることにしましたよ",
+      "description": "男性が2月8日の土曜日に山に登るために出発するシーン。動画は男性の顔のクローズアップで始まり、彼は朝の挨拶をし、山登りの理由を説明しています。",
+      "context_analysis": {
+        "location_type": "outdoor/urban",
+        "environment": [
+          "男性",
+          "帽子(紺色)",
+          "ネックウォーマー(オレンジ)",
+          "バックパック",
+          "階段",
+          "手すり",
+          "建物の外壁",
+          "街灯",
+          "建物",
+          "エスカレーター(一部)"
+        ],
+        "time_of_day": "朝",
+        "weather": [
+          "寒い"
+        ],
+        "activity": [
+          "歩いている",
+          "話している",
+          "山に登る準備をしている"
+        ],
+        "emotional_tone": "ニュートラル"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": true,
+        "b_roll_opportunity": "outdoor/urbanの環境映像 / 寒いの様子",
+        "audio_considerations": "自然環境音を強調 / ダイアログを明確に"
+      }
+    },
+    {
+      "id": 1,
+      "start": 27.3275,
+      "end": 54.655,
+      "duration": 27.3275,
+      "keyframe_path": "keyframes\\keyframe_0001.jpg",
+      "preview_path": "previews\\preview_0001.mp4",
+      "transcripts": [
+        {
+          "start": 25.63,
+          "end": 27.63,
+          "text": "今日は登ることにしましたよ"
+        },
+        {
+          "start": 27.63,
+          "end": 30.27,
+          "text": "ね"
+        },
+        {
+          "start": 30.27,
+          "end": 33.62,
+          "text": "いつまで横浜にいるか分からないですからね"
+        },
+        {
+          "start": 33.62,
+          "end": 35.78,
+          "text": "とりあえずね"
+        },
+        {
+          "start": 35.78,
+          "end": 38.0,
+          "text": "今日はね"
+        },
+        {
+          "start": 38.0,
+          "end": 44.78,
+          "text": "6月ぐらいにヒルで撤退した大山に登ることにしました"
+        },
+        {
+          "start": 44.78,
+          "end": 55.89,
+          "text": "ちょっとね天気を調べたらやっぱりね山頂1200mぐらいはね"
+        }
+      ],
+      "transcript": "今日は登ることにしましたよ ね いつまで横浜にいるか分からないですからね とりあえずね 今日はね 6月ぐらいにヒルで撤退した大山に登ることにしました ちょっとね天気を調べたらやっぱりね山頂1200mぐらいはね",
+      "description": "男性が都市部にある橋の上で、これから登山をすることを話す導入シーン。横浜に滞在している期間が不確定なため、大山に登ることを決めたと説明している。",
+      "context_analysis": {
+        "location_type": "urban",
+        "environment": [
+          "男性",
+          "橋",
+          "街並み（ビルディング、道路、車）",
+          "バックパック",
+          "帽子",
+          "ネックウォーマー"
+        ],
+        "time_of_day": "日中",
+        "weather": [],
+        "activity": [
+          "話す",
+          "歩く（おそらく移動中）",
+          "カメラを見ている"
+        ],
+        "emotional_tone": "ニュートラル"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": true,
+        "b_roll_opportunity": "urbanの環境映像",
+        "audio_considerations": "ダイアログを明確に"
+      }
+    },
+    {
+      "id": 2,
+      "start": 54.655,
+      "end": 81.9825,
+      "duration": 27.3275,
+      "keyframe_path": "keyframes\\keyframe_0002.jpg",
+      "preview_path": "previews\\preview_0002.mp4",
+      "transcripts": [
+        {
+          "start": 44.78,
+          "end": 55.89,
+          "text": "ちょっとね天気を調べたらやっぱりね山頂1200mぐらいはね"
+        },
+        {
+          "start": 55.89,
+          "end": 58.75,
+          "text": "氷点下ぐらいになってるんですよね"
+        },
+        {
+          "start": 58.75,
+          "end": 64.2,
+          "text": "氷点下ってね私あまり経験がないのでね"
+        },
+        {
+          "start": 64.2,
+          "end": 70.1,
+          "text": "ちょっと今日はね船舎とかね結構悩んだんですけどね"
+        },
+        {
+          "start": 70.1,
+          "end": 77.51,
+          "text": "とりあえず雪山装備をそこそこ持ってきてますよ"
+        },
+        {
+          "start": 77.51,
+          "end": 85.41,
+          "text": "これまた動画にするとき編集大変なんですけど"
+        }
+      ],
+      "transcript": "ちょっとね天気を調べたらやっぱりね山頂1200mぐらいはね 氷点下ぐらいになってるんですよね 氷点下ってね私あまり経験がないのでね ちょっと今日はね船舎とかね結構悩んだんですけどね とりあえず雪山装備をそこそこ持ってきてますよ これまた動画にするとき編集大変なんですけど",
+      "description": "男性が都市部の歩道橋を歩いているシーン。男性は寒さを心配しており、山頂付近の気温が氷点下であることを述べている。",
+      "context_analysis": {
+        "location_type": "urban",
+        "environment": [
+          "男性",
+          "歩道橋",
+          "階段",
+          "手すり",
+          "バックパック",
+          "帽子",
+          "ネックウォーマー",
+          "建物",
+          "トヨタの看板",
+          "車"
+        ],
+        "time_of_day": "不明",
+        "weather": [
+          "雪",
+          "寒い"
+        ],
+        "activity": [
+          "歩く",
+          "話す",
+          "寒そうにしている"
+        ],
+        "emotional_tone": "緊張"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": false,
+        "b_roll_opportunity": "urbanの環境映像 / 雪, 寒いの様子",
+        "audio_considerations": "緊張感のあるBGM / ダイアログを明確に"
+      }
+    },
+    {
+      "id": 3,
+      "start": 81.9825,
+      "end": 109.31,
+      "duration": 27.3275,
+      "keyframe_path": "keyframes\\keyframe_0003.jpg",
+      "preview_path": "previews\\preview_0003.mp4",
+      "transcripts": [
+        {
+          "start": 77.51,
+          "end": 85.41,
+          "text": "これまた動画にするとき編集大変なんですけど"
+        },
+        {
+          "start": 85.41,
+          "end": 94.05,
+          "text": "今回はね、朝から足のかかとのひび割れが痛くてね"
+        },
+        {
+          "start": 94.05,
+          "end": 97.3,
+          "text": "そこの手当てをしてましたよ"
+        },
+        {
+          "start": 97.3,
+          "end": 99.4,
+          "text": "ワセリン塗ったりね"
+        },
+        {
+          "start": 99.4,
+          "end": 106.62,
+          "text": "今ちょっとだいぶケアしたから大丈夫だとは思うんですけどね"
+        },
+        {
+          "start": 106.62,
+          "end": 110.69,
+          "text": "やっぱ冬の登山はね、いろんなことありますよね"
+        }
+      ],
+      "transcript": "これまた動画にするとき編集大変なんですけど 今回はね、朝から足のかかとのひび割れが痛くてね そこの手当てをしてましたよ ワセリン塗ったりね 今ちょっとだいぶケアしたから大丈夫だとは思うんですけどね やっぱ冬の登山はね、いろんなことありますよね",
+      "description": "男性が都市部の路上で話しかけているシーン。朝早く、かかとにひび割れがあり、手当てをしたことを説明している。",
+      "context_analysis": {
+        "location_type": "urban",
+        "environment": [
+          "男性",
+          "建物",
+          "道路",
+          "街路樹",
+          "標識",
+          "リュックサック",
+          "帽子",
+          "ネックウォーマー"
+        ],
+        "time_of_day": "朝",
+        "weather": [],
+        "activity": [
+          "話す",
+          "カメラを見る"
+        ],
+        "emotional_tone": "ネガティブ"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": false,
+        "b_roll_opportunity": "urbanの環境映像",
+        "audio_considerations": "緊張感のあるBGM / ダイアログを明確に"
+      }
+    },
+    {
+      "id": 4,
+      "start": 109.31,
+      "end": 136.6375,
+      "duration": 27.327499999999986,
+      "keyframe_path": "keyframes\\keyframe_0004.jpg",
+      "preview_path": "previews\\preview_0004.mp4",
+      "transcripts": [
+        {
+          "start": 106.62,
+          "end": 110.69,
+          "text": "やっぱ冬の登山はね、いろんなことありますよね"
+        },
+        {
+          "start": 110.69,
+          "end": 114.01,
+          "text": "不安だな今日も"
+        },
+        {
+          "start": 114.01,
+          "end": 118.01,
+          "text": "どういうことをしていいのかまだわかってないかな"
+        },
+        {
+          "start": 118.01,
+          "end": 126.14,
+          "text": "不安ですよ、今日は出遅れたよね"
+        },
+        {
+          "start": 126.14,
+          "end": 130.94,
+          "text": "朝7時、7時だとね"
+        },
+        {
+          "start": 130.94,
+          "end": 135.12,
+          "text": "どうやって行くかもあんまり調べてないんですよね"
+        },
+        {
+          "start": 135.12,
+          "end": 139.56,
+          "text": "むちゃくちゃやな、まるか。"
+        }
+      ],
+      "transcript": "やっぱ冬の登山はね、いろんなことありますよね 不安だな今日も どういうことをしていいのかまだわかってないかな 不安ですよ、今日は出遅れたよね 朝7時、7時だとね どうやって行くかもあんまり調べてないんですよね むちゃくちゃやな、まるか。",
+      "description": "冬の登山へ向かう男性が、出発前の不安や準備不足を語っているシーン。朝の街中を歩いている様子が映されている。",
+      "context_analysis": {
+        "location_type": "urban",
+        "environment": [
+          "男性",
+          "帽子",
+          "ネックウォーマー",
+          "バックパック",
+          "建物",
+          "街路",
+          "車",
+          "木",
+          "歩道",
+          "街灯(遠景)"
+        ],
+        "time_of_day": "朝",
+        "weather": [],
+        "activity": [
+          "歩く",
+          "話す",
+          "カメラを見る"
+        ],
+        "emotional_tone": "緊張"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": false,
+        "b_roll_opportunity": "urbanの環境映像",
+        "audio_considerations": "緊張感のあるBGM / ダイアログを明確に"
+      }
+    },
+    {
+      "id": 5,
+      "start": 136.6375,
+      "end": 163.965,
+      "duration": 27.327500000000015,
+      "keyframe_path": "keyframes\\keyframe_0005.jpg",
+      "preview_path": "previews\\preview_0005.mp4",
+      "transcripts": [
+        {
+          "start": 135.12,
+          "end": 139.56,
+          "text": "むちゃくちゃやな、まるか。"
+        },
+        {
+          "start": 139.56,
+          "end": 142.56,
+          "text": "ほとんどやる気がないの、登山といっても。"
+        },
+        {
+          "start": 142.56,
+          "end": 146.62,
+          "text": "決断したのがね、5時ですよ。"
+        },
+        {
+          "start": 146.62,
+          "end": 151.62,
+          "text": "今日は家で、なんかもうゆっくりしようかなと思ったけどね。"
+        },
+        {
+          "start": 151.62,
+          "end": 155.78,
+          "text": "やっぱりね、明日はもうね、家にいるでしょ。"
+        },
+        {
+          "start": 155.78,
+          "end": 161.94,
+          "text": "やっぱりね、筋肉がね、減ってくると体が冷えるんですよね。"
+        },
+        {
+          "start": 161.94,
+          "end": 165.94,
+          "text": "でね、山行くとね、ポカポカポカポカして、"
+        }
+      ],
+      "transcript": "むちゃくちゃやな、まるか。 ほとんどやる気がないの、登山といっても。 決断したのがね、5時ですよ。 今日は家で、なんかもうゆっくりしようかなと思ったけどね。 やっぱりね、明日はもうね、家にいるでしょ。 やっぱりね、筋肉がね、減ってくると体が冷えるんですよね。 でね、山行くとね、ポカポカポカポカして、",
+      "description": "男性が街中で歩きながら、登山へのやる気や体の冷え、山の温かさについて独り言のように話しているシーン。",
+      "context_analysis": {
+        "location_type": "urban",
+        "environment": [
+          "男性",
+          "バックパック",
+          "ネックウォーマー",
+          "帽子",
+          "街路",
+          "歩道",
+          "建物",
+          "高架橋"
+        ],
+        "time_of_day": "日中",
+        "weather": [
+          "寒い"
+        ],
+        "activity": [
+          "歩く",
+          "話す",
+          "カメラに向かって話す"
+        ],
+        "emotional_tone": "ニュートラル"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": true,
+        "b_roll_opportunity": "urbanの環境映像 / 寒いの様子",
+        "audio_considerations": "ダイアログを明確に"
+      }
+    },
+    {
+      "id": 6,
+      "start": 163.965,
+      "end": 191.29250000000002,
+      "duration": 27.327500000000015,
+      "keyframe_path": "keyframes\\keyframe_0006.jpg",
+      "preview_path": "previews\\preview_0006.mp4",
+      "transcripts": [
+        {
+          "start": 161.94,
+          "end": 165.94,
+          "text": "でね、山行くとね、ポカポカポカポカして、"
+        },
+        {
+          "start": 165.94,
+          "end": 169.48,
+          "text": "次の日がものすごく過ごしやすいんですよ"
+        },
+        {
+          "start": 169.48,
+          "end": 171.68,
+          "text": "もうそのためだけ"
+        },
+        {
+          "start": 171.68,
+          "end": 174.21,
+          "text": "まさにそのためだけに"
+        },
+        {
+          "start": 174.21,
+          "end": 177.1,
+          "text": "山に登っているっていうね"
+        },
+        {
+          "start": 177.1,
+          "end": 179.56,
+          "text": "完全に健康維持ですよ"
+        },
+        {
+          "start": 179.56,
+          "end": 181.0,
+          "text": "健康維持"
+        },
+        {
+          "start": 181.0,
+          "end": 185.87,
+          "text": "温泉に行きたいなあ"
+        },
+        {
+          "start": 185.87,
+          "end": 187.92,
+          "text": "代わりに"
+        },
+        {
+          "start": 187.92,
+          "end": 191.0,
+          "text": "7時やしねえ"
+        },
+        {
+          "start": 191.0,
+          "end": 193.76,
+          "text": "ちょっとねえ"
+        }
+      ],
+      "transcript": "でね、山行くとね、ポカポカポカポカして、 次の日がものすごく過ごしやすいんですよ もうそのためだけ まさにそのためだけに 山に登っているっていうね 完全に健康維持ですよ 健康維持 温泉に行きたいなあ 代わりに 7時やしねえ ちょっとねえ",
+      "description": "男性が街中を歩きながら、登山と健康について話しているシーン。",
+      "context_analysis": {
+        "location_type": "urban",
+        "environment": [
+          "男性",
+          "建物",
+          "街路",
+          "看板",
+          "バックパック",
+          "ネックウォーマー",
+          "帽子"
+        ],
+        "time_of_day": "日中",
+        "weather": [],
+        "activity": [
+          "歩く",
+          "話す"
+        ],
+        "emotional_tone": "ニュートラル"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": true,
+        "b_roll_opportunity": "urbanの環境映像",
+        "audio_considerations": "ダイアログを明確に"
+      }
+    },
+    {
+      "id": 7,
+      "start": 191.29250000000002,
+      "end": 218.62,
+      "duration": 27.327499999999986,
+      "keyframe_path": "keyframes\\keyframe_0007.jpg",
+      "preview_path": "previews\\preview_0007.mp4",
+      "transcripts": [
+        {
+          "start": 191.0,
+          "end": 193.76,
+          "text": "ちょっとねえ"
+        },
+        {
+          "start": 193.76,
+          "end": 198.16,
+          "text": "寒いわ"
+        },
+        {
+          "start": 198.16,
+          "end": 201.02,
+          "text": "毎回動画撮ってるけどな"
+        },
+        {
+          "start": 201.02,
+          "end": 202.44,
+          "text": "これはもう"
+        },
+        {
+          "start": 202.44,
+          "end": 205.04,
+          "text": "どういう風に今日終えるのか"
+        },
+        {
+          "start": 205.04,
+          "end": 207.69,
+          "text": "よくわからんぞ俺は"
+        },
+        {
+          "start": 207.69,
+          "end": 213.35,
+          "text": "もはや、まあええわ、今日は一人やしな。"
+        },
+        {
+          "start": 213.35,
+          "end": 218.62,
+          "text": "なんか、準備もゴタゴタだし。"
+        }
+      ],
+      "transcript": "ちょっとねえ 寒いわ 毎回動画撮ってるけどな これはもう どういう風に今日終えるのか よくわからんぞ俺は もはや、まあええわ、今日は一人やしな。 なんか、準備もゴタゴタだし。",
+      "description": "寒空の下、男性が街中で動画撮影をしているシーン。撮影準備に手間取っている様子と、当日の予定が不確定であることを口にしている。",
+      "context_analysis": {
+        "location_type": "outdoor",
+        "environment": [
+          "男性",
+          "キャップ",
+          "ネックウォーマー",
+          "バックパック",
+          "建物",
+          "街路樹",
+          "道路",
+          "トラック",
+          "車",
+          "高架道路"
+        ],
+        "time_of_day": "不明",
+        "weather": [
+          "風",
+          "寒い"
+        ],
+        "activity": [
+          "動画撮影",
+          "歩く",
+          "話す"
+        ],
+        "emotional_tone": "ニュートラル"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": true,
+        "b_roll_opportunity": "outdoorの環境映像 / 風, 寒いの様子",
+        "audio_considerations": "自然環境音を強調 / 風切り音の低減 / ダイアログを明確に"
+      }
+    }
+  ],
+  "processed_at": "2025-03-25T00:18:56.996071"
+}

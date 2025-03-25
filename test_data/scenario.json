@@ -1,0 +1,75 @@
+{
+  "title": "氷点下の挑戦：冬の大山登山記録",
+  "concept": "健康維持を目的とした冬の大山登山に挑む記録。準備不足や経験の少なさに不安を感じながらも、雪山装備を整えて氷点下の山に向かう様子を描く",
+  "themes": ["冬の登山", "健康維持", "雪山装備", "挑戦と不安", "大山"],
+  "sections": [
+    {
+      "section_id": "intro-001",
+      "type": "intro",
+      "description": "動画の背景と登山の目的を説明する導入部",
+      "key_messages": ["健康維持のための山登り", "2月8日土曜日の登山", "登山への決意"],
+      "duration": 30,
+      "content_ids": ["video_nodes_GH012562"],
+      "effects": ["ソフトなフェードイン", "テキストオーバーレイで日付と場所を表示"]
+    },
+    {
+      "section_id": "main-001",
+      "type": "main",
+      "description": "登山先の選定と過去の経験について説明",
+      "key_messages": ["6月に撤退した大山へのリベンジ", "横浜滞在中の貴重な機会"],
+      "duration": 35,
+      "content_ids": ["video_nodes_GH012562"],
+      "effects": ["カットトランジション"]
+    },
+    {
+      "section_id": "main-002",
+      "type": "main",
+      "description": "氷点下の登山に対する不安と準備について",
+      "key_messages": ["山頂1200mは氷点下", "氷点下登山の経験不足", "雪山装備の準備"],
+      "duration": 45,
+      "content_ids": ["video_nodes_GH012562"],
+      "effects": ["テキストオーバーレイで気温情報", "ズームインで装備アイテムのハイライト"]
+    },
+    {
+      "section_id": "main-003",
+      "type": "main",
+      "description": "冬の登山特有の身体的課題と対策",
+      "key_messages": ["かかとのひび割れの手当て", "冬の登山の難しさ"],
+      "duration": 40,
+      "content_ids": ["video_nodes_GH012562"],
+      "effects": ["クローズアップ"]
+    },
+    {
+      "section_id": "main-004",
+      "type": "main",
+      "description": "登山前の不安と即興的な計画について",
+      "key_messages": ["準備不足と不安感", "出発時間の遅れ", "十分な計画なしでの挑戦"],
+      "duration": 40,
+      "content_ids": ["video_nodes_GH012562"],
+      "effects": ["スローモーション", "不安感を表現する音楽"]
+    },
+    {
+      "section_id": "main-005",
+      "type": "main",
+      "description": "健康維持としての登山の重要性",
+      "key_messages": ["筋肉維持と体温調節の関係", "登山がもたらす温かさ", "健康維持が主目的"],
+      "duration": 30,
+      "content_ids": ["video_nodes_GH012562"],
+      "effects": ["エネルギッシュな音楽"]
+    },
+    {
+      "section_id": "outro-001",
+      "type": "outro",
+      "description": "寒さと登山の振り返り、今後の展望",
+      "key_messages": ["冬の登山の挑戦", "健康維持としての継続的な活動の重要性"],
+      "duration": 20,
+      "content_ids": ["video_nodes_GH012562"],
+      "effects": ["フェードアウト", "最終メッセージのテキストオーバーレイ"]
+    }
+  ],
+  "narration": {
+    "style": "descriptive",
+    "tone": "calm",
+    "keywords": ["自然", "風景", "美しい"]
+  }
+} 

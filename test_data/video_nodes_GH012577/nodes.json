@@ -1,0 +1,92 @@
+{
+  "file_path": "G:\\100GOPRO\\GH012577.MP4",
+  "metadata": {
+    "filename": "GH012577.MP4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 59.94005994005994,
+    "duration": 44.608,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "size": 169004288,
+    "bitrate": 30309233,
+    "created_at": "2025-03-25T00:21:59.431277"
+  },
+  "summary": {
+    "title": "日本の大学生教育に関する解説",
+    "overview": "日本の大学生の教育について解説する動画です。具体的な撮影日、場所、天候、移動手段などの情報はトランスクリプトに含まれていません。",
+    "topics": [
+      "日本の大学生教育"
+    ],
+    "filming_date": null,
+    "location": null,
+    "weather": [],
+    "purpose": "日本の大学生の教育について説明する",
+    "transportation": null,
+    "starting_point": null,
+    "destination": null,
+    "scene_count": 1,
+    "total_duration": 44.608,
+    "landscape_summary": {
+      "main_environments": [],
+      "terrain_features": [],
+      "notable_views": []
+    },
+    "gopro_start_time": "2025-03-25T00:22:09.272984"
+  },
+  "scenes": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 21.45,
+      "duration": 21.45,
+      "keyframe_path": "keyframes\\keyframe_0000.jpg",
+      "preview_path": "previews\\preview_0000.mp4",
+      "transcripts": [
+        {
+          "start": 0.0,
+          "end": 9.45,
+          "text": "日本の大学生の学生の教育を教えてもらいました。"
+        },
+        {
+          "start": 9.45,
+          "end": 15.45,
+          "text": "大学生の教育を教えてもらいました。"
+        },
+        {
+          "start": 15.45,
+          "end": 21.45,
+          "text": "大学生の教育を教えてもらいました。"
+        }
+      ],
+      "transcript": "日本の大学生の学生の教育を教えてもらいました。 大学生の教育を教えてもらいました。 大学生の教育を教えてもらいました。",
+      "description": "このシーンは、おそらく公共交通機関（電車またはバス）の車内を第一人称視点で捉えたものです。人がバックパックを整理している様子が映し出されています。トランスクリプトは日本語で、日本の大学生教育に関する内容を繰り返し述べていますが、映像の内容とは直接関係ありません。",
+      "context_analysis": {
+        "location_type": "indoor",
+        "environment": [
+          "バックパック",
+          "手",
+          "衣服（ジャケット、パーカー）",
+          "座席の一部",
+          "床の一部",
+          "人の足（複数）",
+          "モバイルデバイス（一部）"
+        ],
+        "time_of_day": "不明",
+        "weather": [],
+        "activity": [
+          "バックパックを整理する",
+          "バックパックの中身を触る",
+          "移動している（車両内）"
+        ],
+        "emotional_tone": "ニュートラル"
+      },
+      "editing_suggestions": {
+        "highlight_worthy": true,
+        "potential_cutpoint": true,
+        "b_roll_opportunity": "indoorの環境映像",
+        "audio_considerations": "室内の環境音を抑制 / ダイアログを明確に"
+      }
+    }
+  ],
+  "processed_at": "2025-03-25T00:22:09.272984"
+}

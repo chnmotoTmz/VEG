@@ -1,0 +1,997 @@
+2025-03-22 14:36:45,739 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 14:36:52,329 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 14:36:53,711 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 14:36:55,716 - srt_scene_tools.gui.scenario_gui - ERROR - Error during content analysis: 'ContentCrawler' object has no attribute 'analyze'
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 107, in analyze_content
+    analysis_result = self.content_crawler.analyze()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContentCrawler' object has no attribute 'analyze'
+2025-03-22 14:36:57,575 - srt_scene_tools.gui.scenario_gui - INFO - Starting scenario generation
+2025-03-22 14:36:58,941 - srt_scene_tools.gui.scenario_gui - ERROR - Error during scenario generation: Title is required
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 136, in generate_scenario
+    raise ValueError("Title is required")
+ValueError: Title is required
+2025-03-22 14:38:21,255 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 14:38:26,438 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 14:38:27,932 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 14:38:27,951 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 14:40:01,588 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 14:40:06,877 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 14:40:08,376 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 14:40:08,394 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 14:40:09,872 - srt_scene_tools.gui.scenario_gui - INFO - Starting scenario generation
+2025-03-22 14:40:11,485 - srt_scene_tools.gui.scenario_gui - ERROR - Error during scenario generation: Title is required
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 146, in generate_scenario
+    raise ValueError("Title is required")
+ValueError: Title is required
+2025-03-22 14:49:10,034 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 14:49:10,052 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 14:49:18,520 - srt_scene_tools.gui.scenario_gui - INFO - Starting scenario generation
+2025-03-22 14:49:20,181 - srt_scene_tools.gui.scenario_gui - ERROR - Error during scenario generation: Video length must be a number
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 150, in generate_scenario
+    video_length = int(video_length)
+                   ^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 152, in generate_scenario
+    raise ValueError("Video length must be a number")
+ValueError: Video length must be a number
+2025-03-22 14:49:28,480 - srt_scene_tools.gui.scenario_gui - INFO - Starting scenario generation
+2025-03-22 14:49:28,481 - srt_scene_tools.gui.scenario_gui - INFO - Scenario generation completed successfully
+2025-03-22 15:01:10,324 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:01:15,798 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:01:17,659 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:01:17,679 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:01:19,675 - srt_scene_tools.gui.scenario_gui - INFO - Starting scenario generation
+2025-03-22 15:01:21,546 - srt_scene_tools.gui.scenario_gui - ERROR - Error during scenario generation: Title is required
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 146, in generate_scenario
+    raise ValueError("Title is required")
+ValueError: Title is required
+2025-03-22 15:11:17,262 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:11:21,423 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:11:23,353 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:11:23,379 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:17:11,729 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:17:16,407 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:17:17,780 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:17:17,802 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:30:37,234 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:30:42,844 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:30:45,481 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:30:47,032 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:31:50,626 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:31:54,422 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:33:24,009 - srt_scene_tools.gui.scenario_gui - ERROR - Error during content analysis: [WinError 3] 指定されたパスが見つかりません。: 'C:/Users/motoc/workspace/srt_scene_tools/100GOPRO'
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 111, in analyze_content
+    self.video_contents = self.content_crawler.crawl()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\content_analyzer.py", line 38, in crawl
+    for item in os.listdir(self.base_folder):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] 指定されたパスが見つかりません。: 'C:/Users/motoc/workspace/srt_scene_tools/100GOPRO'
+2025-03-22 15:33:29,004 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:33:32,954 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:33:34,451 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:33:35,217 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:35:38,385 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:35:44,391 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:35:46,045 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:35:46,903 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:35:50,765 - srt_scene_tools.gui.scenario_gui - INFO - Starting scenario generation
+2025-03-22 15:35:52,690 - srt_scene_tools.gui.scenario_gui - ERROR - Error during scenario generation: Title is required
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 171, in generate_scenario
+    raise ValueError("Title is required")
+ValueError: Title is required
+2025-03-22 15:36:54,719 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:37:12,958 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:37:17,173 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:37:18,208 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:37:18,801 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:46:16,905 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:46:21,923 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:46:23,914 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:46:47,687 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 15:51:39,533 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 15:51:44,017 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 15:51:45,108 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 15:52:04,193 - srt_scene_tools.gui.scenario_gui - INFO - Content analysis completed successfully
+2025-03-22 16:01:35,188 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:01:35,391 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:01:40,251 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 16:01:41,789 - srt_scene_tools.gui.scenario_gui - INFO - Starting content analysis for folder: G:/100GOPRO
+2025-03-22 16:01:41,789 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: G:/100GOPRO
+2025-03-22 16:01:42,864 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:42,865 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012562\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:43,828 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:43,829 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012563\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:44,631 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:44,631 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012564\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:44,632 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:44,633 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012565\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:45,375 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:45,375 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012566\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:45,376 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:45,377 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012567\nodes.json: No scenes found in the data
+2025-03-22 16:01:45,378 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:45,378 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012568\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:45,379 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:45,380 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012569\nodes.json: No scenes found in the data
+2025-03-22 16:01:46,221 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:46,222 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012570\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:46,223 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:46,223 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012571\nodes.json: No scenes found in the data
+2025-03-22 16:01:46,224 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:46,225 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012572\nodes.json: No scenes found in the data
+2025-03-22 16:01:46,226 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:46,226 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012573\nodes.json: No scenes found in the data
+2025-03-22 16:01:46,227 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:46,228 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012574\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:46,229 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:46,229 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012575\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:46,230 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:46,231 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012576\nodes.json: No scenes found in the data
+2025-03-22 16:01:46,866 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:46,867 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012577\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:47,494 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:47,494 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012578\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:48,207 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:48,208 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012579\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:48,209 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:48,209 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012580\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:48,210 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:48,211 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012581\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:48,212 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:48,212 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012582\nodes.json: No scenes found in the data
+2025-03-22 16:01:48,948 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:48,948 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012583\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:49,584 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:49,585 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012584\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:50,285 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:50,286 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012585\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:50,902 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:50,902 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012586\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:51,830 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:51,830 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012587\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:52,500 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:52,501 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012588\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:53,151 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:53,152 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012589\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:53,913 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:53,913 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012590\nodes.json: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:01:53,914 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:53,914 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012591\nodes.json: No scenes found in the data
+2025-03-22 16:01:53,915 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:53,915 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012592\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:54,149 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:54,149 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012593\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:54,483 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:54,483 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012594\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:54,813 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:54,815 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012595\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,037 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,038 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012596\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,254 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,255 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012597\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,452 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,453 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012598\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,667 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,669 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012599\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,860 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:55,861 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012600\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,096 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,097 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012601\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,315 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,316 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012602\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,500 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,501 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012603\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,719 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,720 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012604\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,926 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,927 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012605\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:56,928 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:56,928 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012606\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:56,929 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:56,930 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012607\nodes.json: No scenes found in the data
+2025-03-22 16:01:57,116 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,117 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012608\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,313 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,314 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012609\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,530 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,531 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012610\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,740 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,741 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012611\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,939 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:57,940 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012612\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,172 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,173 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012613\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,391 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,392 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012614\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,393 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:58,393 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012615\nodes.json: No scenes found in the data
+2025-03-22 16:01:58,394 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:58,395 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012616\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:58,622 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,622 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012617\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,834 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,835 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012618\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:58,836 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:01:58,837 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012619\nodes.json: No scenes found in the data
+2025-03-22 16:01:59,109 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,110 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012620\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,309 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,311 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012621\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,522 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,523 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012622\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,739 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,741 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012623\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,743 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:01:59,745 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012624\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:01:59,947 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:01:59,948 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012625\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,160 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,161 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012626\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,161 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:02:00,162 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012627\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:02:00,380 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,382 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012628\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,384 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:02:00,385 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012629\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:02:00,582 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,582 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012630\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,583 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:02:00,583 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012631\nodes.json: No scenes found in the data
+2025-03-22 16:02:00,792 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:00,794 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012632\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,033 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,035 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012633\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,260 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,261 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012634\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,263 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:02:01,264 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012635\nodes.json: No scenes found in the data
+2025-03-22 16:02:01,477 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,478 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012636\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,677 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,678 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012637\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,891 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:01,893 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012638\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,114 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,114 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012639\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,324 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,324 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012640\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,325 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:02:02,326 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012641\nodes.json: No scenes found in the data
+2025-03-22 16:02:02,537 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,538 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012642\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,736 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,736 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012643\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,737 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:02:02,738 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012644\nodes.json: No scenes found in the data
+2025-03-22 16:02:02,968 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:02,969 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012645\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,205 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,206 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012646\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,438 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,439 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012647\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,656 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,657 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012648\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,865 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:03,866 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012649\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,087 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,087 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012650\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,316 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,317 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012651\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,565 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,566 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012652\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,778 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,778 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012653\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,973 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:04,974 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012654\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,190 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,191 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012655\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,192 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 16:02:05,193 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012656\nodes.json: No scenes found in the data
+2025-03-22 16:02:05,397 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,398 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012657\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,594 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,595 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012658\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,816 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,817 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012659\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:05,818 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: トランスクリプトが不足しています
+2025-03-22 16:02:05,818 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012660\nodes.json: トランスクリプトが不足しています
+2025-03-22 16:02:06,024 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:06,025 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012661\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:06,233 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:06,235 - srt_scene_tools.content_analyzer - ERROR - Error parsing G:/100GOPRO\video_nodes_GH012662\nodes.json: 429 Resource has been exhausted (e.g. check quota).
+2025-03-22 16:02:06,235 - srt_scene_tools.content_analyzer - INFO - Found 0 video contents
+2025-03-22 16:02:08,488 - srt_scene_tools.gui.scenario_gui - ERROR - Error during content analysis: 分析するコンテンツがありません
+Traceback (most recent call last):
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\gui\scenario_gui.py", line 132, in analyze_content
+    self.concept_data = self.concept_generator.analyze_contents(self.video_contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\motoc\workspace\srt_scene_tools\srt_scene_tools\content_analyzer.py", line 170, in analyze_contents
+    raise ValueError("分析するコンテンツがありません")
+ValueError: 分析するコンテンツがありません
+2025-03-22 16:10:18,815 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:10:18,815 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:10:31,688 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 16:10:56,384 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:10:56,385 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:11:00,845 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 16:15:56,935 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:15:56,936 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:16:02,985 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 16:16:04,797 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak
+2025-03-22 16:16:05,894 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["冬の登山", "健康維持"],
+  "location": "大山",
+  "purpose": "登山記録、健康維持の記録"
+}
+```
+
+2025-03-22 16:16:06,011 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012562\nodes.json のパース完了
+2025-03-22 16:16:06,772 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["旅行", "電車の旅", "道順確認"],
+  "location": "相鉄線、海老名、伊勢原、大山",
+  "purpose": "伊勢原への旅行記録、経路確認"
+}
+```
+
+2025-03-22 16:16:06,883 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012563\nodes.json のパース完了
+2025-03-22 16:16:07,616 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["電車旅", "鉄道"],
+  "location": "装鉄線, 海老名, 伊勢原",
+  "purpose": "旅行記録、鉄道記録"
+}
+```
+
+2025-03-22 16:16:07,617 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012564\nodes.json のパース完了
+2025-03-22 16:16:07,617 - srt_scene_tools.content_analyzer - INFO - Found 3 video contents (成功: 3, エラー: 0)
+2025-03-22 16:16:07,618 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:16:10,216 - srt_scene_tools.content_analyzer - ERROR - LLMによる分析中にエラーが発生しました: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:17:07,848 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:17:07,850 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:17:22,001 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 16:17:23,559 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak
+2025-03-22 16:17:24,462 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["登山", "健康維持"],
+  "location": "大山",
+  "purpose": "登山記録、健康維持の記録"
+}
+```
+
+2025-03-22 16:17:24,463 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012562\nodes.json のパース完了
+2025-03-22 16:17:25,309 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["旅行", "経路探索", "電車の旅"],
+  "location": "相鉄線、海老名、伊勢原、大山",
+  "purpose": "伊勢原への行き方を探し、実際に電車で移動する様子を記録する"
+}
+```
+
+2025-03-22 16:17:25,314 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012563\nodes.json のパース完了
+2025-03-22 16:17:26,063 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["鉄道旅行", "装鉄線"],
+  "location": "海老名, 伊勢原",
+  "purpose": "鉄道旅行の記録"
+}
+```
+
+2025-03-22 16:17:26,074 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012564\nodes.json のパース完了
+2025-03-22 16:17:26,076 - srt_scene_tools.content_analyzer - INFO - Found 3 video contents (成功: 3, エラー: 0)
+2025-03-22 16:17:26,077 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:17:28,725 - srt_scene_tools.content_analyzer - ERROR - LLMによる分析中にエラーが発生しました: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:17:43,095 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 16:17:51,294 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak
+2025-03-22 16:17:51,968 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["冬のソロ登山", "健康維持"],
+  "location": "大山",
+  "purpose": "登山記録（健康維持のための登山活動の記録）"
+}
+```
+
+2025-03-22 16:17:51,988 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012562\nodes.json のパース完了
+2025-03-22 16:17:52,770 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["旅行", "経路探索", "電車の旅"],
+  "location": "相鉄線、海老名、伊勢原、大山（目的地）",
+  "purpose": "伊勢原への旅行記録"
+}
+```
+
+2025-03-22 16:17:52,771 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012563\nodes.json のパース完了
+2025-03-22 16:17:53,588 - srt_scene_tools.content_analyzer - ERROR - JSONデコードエラー: ```json
+{
+  "topics": ["電車旅行", "鉄道"],
+  "location": "海老名",
+  "purpose": "旅行記録"
+}
+```
+
+2025-03-22 16:17:53,589 - srt_scene_tools.content_analyzer - INFO - 成功: C:/Users/motoc/workspace/srt_scene_tools/100GOPRO-bak\video_nodes_GH012564\nodes.json のパース完了
+2025-03-22 16:17:53,589 - srt_scene_tools.content_analyzer - INFO - Found 3 video contents (成功: 3, エラー: 0)
+2025-03-22 16:17:53,590 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:17:56,168 - srt_scene_tools.content_analyzer - ERROR - LLMによる分析中にエラーが発生しました: Expecting value: line 1 column 1 (char 0)
+2025-03-22 16:20:10,220 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:20:10,221 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:20:15,266 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:/100GOPRO
+2025-03-22 16:20:17,105 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: G:/100GOPRO
+2025-03-22 16:20:18,729 - srt_scene_tools.content_analyzer - INFO - 成功: G:/100GOPRO\video_nodes_GH012562\nodes.json のパース完了
+2025-03-22 16:20:19,570 - srt_scene_tools.content_analyzer - INFO - 成功: G:/100GOPRO\video_nodes_GH012563\nodes.json のパース完了
+2025-03-22 16:20:20,250 - srt_scene_tools.content_analyzer - INFO - 成功: G:/100GOPRO\video_nodes_GH012564\nodes.json のパース完了
+2025-03-22 16:20:20,912 - srt_scene_tools.content_analyzer - INFO - 成功: G:/100GOPRO\video_nodes_GH012565\nodes.json のパース完了
+2025-03-22 16:20:20,914 - srt_scene_tools.content_analyzer - INFO - Found 4 video contents (成功: 4, エラー: 0)
+2025-03-22 16:20:20,915 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:20:20,917 - srt_scene_tools.content_analyzer - INFO - LLMを使用してコンテンツを分析します
+2025-03-22 16:21:00,123 - srt_scene_tools.gui.scenario_gui - INFO - Starting scenario generation
+2025-03-22 16:21:00,125 - srt_scene_tools.gui.scenario_gui - INFO - Scenario generation completed successfully
+2025-03-22 16:29:56,473 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:29:56,473 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:40:27,876 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 16:40:27,877 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:40:27,877 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:43:46,932 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 16:43:46,932 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:43:46,932 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:52:35,502 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 16:52:35,518 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:52:35,518 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 16:55:59,737 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 16:55:59,737 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 16:55:59,737 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 17:17:53,279 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:17:53,279 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:17:55,505 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 17:19:40,849 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:19:40,849 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:19:41,094 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterGUI initialized
+2025-03-22 17:20:04,669 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: \G:
+2025-03-22 17:20:53,185 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:\100GOPRO
+2025-03-22 17:20:58,585 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: G:\100GOPRO
+2025-03-22 17:20:58,586 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,586 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012562\nodes.json のパース完了
+2025-03-22 17:20:58,587 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,587 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012563\nodes.json のパース完了
+2025-03-22 17:20:58,588 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,588 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012564\nodes.json のパース完了
+2025-03-22 17:20:58,588 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,589 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012565\nodes.json のパース完了
+2025-03-22 17:20:58,589 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,589 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012566\nodes.json のパース完了
+2025-03-22 17:20:58,590 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,590 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012567\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,591 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,591 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012568\nodes.json のパース完了
+2025-03-22 17:20:58,592 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,592 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012569\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,593 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,594 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012570\nodes.json のパース完了
+2025-03-22 17:20:58,594 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,595 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012571\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,595 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,596 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012572\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,596 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,597 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012573\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,597 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,598 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012574\nodes.json のパース完了
+2025-03-22 17:20:58,598 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,599 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012575\nodes.json のパース完了
+2025-03-22 17:20:58,599 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,600 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012576\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,600 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,601 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012577\nodes.json のパース完了
+2025-03-22 17:20:58,602 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,603 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012578\nodes.json のパース完了
+2025-03-22 17:20:58,604 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,604 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012579\nodes.json のパース完了
+2025-03-22 17:20:58,605 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,606 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012580\nodes.json のパース完了
+2025-03-22 17:20:58,606 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,607 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012581\nodes.json のパース完了
+2025-03-22 17:20:58,608 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,608 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012582\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,609 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,609 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012583\nodes.json のパース完了
+2025-03-22 17:20:58,610 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,610 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012584\nodes.json のパース完了
+2025-03-22 17:20:58,611 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,612 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012585\nodes.json のパース完了
+2025-03-22 17:20:58,612 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,613 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012586\nodes.json のパース完了
+2025-03-22 17:20:58,614 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,614 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012587\nodes.json のパース完了
+2025-03-22 17:20:58,615 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,615 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012588\nodes.json のパース完了
+2025-03-22 17:20:58,616 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,617 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012589\nodes.json のパース完了
+2025-03-22 17:20:58,617 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,618 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012590\nodes.json のパース完了
+2025-03-22 17:20:58,619 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:20:58,620 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012591\nodes.json: No scenes found in the data
+2025-03-22 17:20:58,621 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,621 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012592\nodes.json のパース完了
+2025-03-22 17:20:58,622 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,622 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012593\nodes.json のパース完了
+2025-03-22 17:20:58,623 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,623 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012594\nodes.json のパース完了
+2025-03-22 17:20:58,624 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,624 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012595\nodes.json のパース完了
+2025-03-22 17:20:58,625 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,625 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012596\nodes.json のパース完了
+2025-03-22 17:20:58,625 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,626 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012597\nodes.json のパース完了
+2025-03-22 17:20:58,626 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,627 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012598\nodes.json のパース完了
+2025-03-22 17:20:58,627 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,628 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012599\nodes.json のパース完了
+2025-03-22 17:20:58,628 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,629 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012600\nodes.json のパース完了
+2025-03-22 17:20:58,630 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,630 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012601\nodes.json のパース完了
+2025-03-22 17:20:58,631 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,631 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012602\nodes.json のパース完了
+2025-03-22 17:20:58,632 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,632 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012603\nodes.json のパース完了
+2025-03-22 17:20:58,633 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,633 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012604\nodes.json のパース完了
+2025-03-22 17:20:58,634 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,635 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012605\nodes.json のパース完了
+2025-03-22 17:20:58,637 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:20:58,637 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012606\nodes.json のパース完了
+2025-03-22 17:20:58,639 - srt_scene_tools.content_analyzer - INFO - Found 37 video contents (成功: 37, エラー: 8)
+2025-03-22 17:20:58,639 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:20:58,640 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:20:58,640 - srt_scene_tools.content_analyzer - INFO - LLMを使用してコンテンツを分析します
+2025-03-22 17:43:51,121 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:43:51,121 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:43:51,122 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 17:43:52,330 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 17:43:52,434 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 17:43:52,643 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-03-22 17:43:53,027 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-22 17:43:53,576 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 17:43:54,473 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-launched-telemetry/ "HTTP/1.1 200 OK"
+2025-03-22 17:46:36,396 - srt_scene_tools.gui.scenario_gui - INFO - Selected folder: G:\100GOPRO
+2025-03-22 17:46:44,522 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: G:\100GOPRO
+2025-03-22 17:46:44,523 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,524 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012562\nodes.json のパース完了
+2025-03-22 17:46:44,525 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,525 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012563\nodes.json のパース完了
+2025-03-22 17:46:44,526 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,526 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012564\nodes.json のパース完了
+2025-03-22 17:46:44,527 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,527 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012565\nodes.json のパース完了
+2025-03-22 17:46:44,528 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,528 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012566\nodes.json のパース完了
+2025-03-22 17:46:44,529 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,529 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012567\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,530 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,530 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012568\nodes.json のパース完了
+2025-03-22 17:46:44,531 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,532 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012569\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,532 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,533 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012570\nodes.json のパース完了
+2025-03-22 17:46:44,534 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,534 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012571\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,535 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,536 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012572\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,537 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,537 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012573\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,538 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,539 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012574\nodes.json のパース完了
+2025-03-22 17:46:44,540 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,540 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012575\nodes.json のパース完了
+2025-03-22 17:46:44,541 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,542 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012576\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,542 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,543 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012577\nodes.json のパース完了
+2025-03-22 17:46:44,543 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,544 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012578\nodes.json のパース完了
+2025-03-22 17:46:44,545 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,545 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012579\nodes.json のパース完了
+2025-03-22 17:46:44,546 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,546 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012580\nodes.json のパース完了
+2025-03-22 17:46:44,547 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,547 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012581\nodes.json のパース完了
+2025-03-22 17:46:44,548 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,548 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012582\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,549 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,550 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012583\nodes.json のパース完了
+2025-03-22 17:46:44,551 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,551 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012584\nodes.json のパース完了
+2025-03-22 17:46:44,554 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,555 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012585\nodes.json のパース完了
+2025-03-22 17:46:44,558 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,558 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012586\nodes.json のパース完了
+2025-03-22 17:46:44,559 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,560 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012587\nodes.json のパース完了
+2025-03-22 17:46:44,561 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,561 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012588\nodes.json のパース完了
+2025-03-22 17:46:44,562 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,563 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012589\nodes.json のパース完了
+2025-03-22 17:46:44,564 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,564 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012590\nodes.json のパース完了
+2025-03-22 17:46:44,566 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content: No scenes found in the data
+2025-03-22 17:46:44,566 - srt_scene_tools.content_analyzer - ERROR - Error parsing video content in G:\100GOPRO\video_nodes_GH012591\nodes.json: No scenes found in the data
+2025-03-22 17:46:44,567 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,567 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012592\nodes.json のパース完了
+2025-03-22 17:46:44,574 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,575 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012593\nodes.json のパース完了
+2025-03-22 17:46:44,576 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,577 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012594\nodes.json のパース完了
+2025-03-22 17:46:44,578 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,578 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012595\nodes.json のパース完了
+2025-03-22 17:46:44,579 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,580 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012596\nodes.json のパース完了
+2025-03-22 17:46:44,581 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,581 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012597\nodes.json のパース完了
+2025-03-22 17:46:44,582 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,582 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012598\nodes.json のパース完了
+2025-03-22 17:46:44,583 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,584 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012599\nodes.json のパース完了
+2025-03-22 17:46:44,587 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,587 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012600\nodes.json のパース完了
+2025-03-22 17:46:44,589 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,589 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012601\nodes.json のパース完了
+2025-03-22 17:46:44,590 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,591 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012602\nodes.json のパース完了
+2025-03-22 17:46:44,592 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,592 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012603\nodes.json のパース完了
+2025-03-22 17:46:44,593 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,593 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012604\nodes.json のパース完了
+2025-03-22 17:46:44,594 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,595 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012605\nodes.json のパース完了
+2025-03-22 17:46:44,596 - srt_scene_tools.content_analyzer - ERROR - LLM分析エラー: 'ContentCrawler' object has no attribute 'genai'
+2025-03-22 17:46:44,596 - srt_scene_tools.content_analyzer - INFO - 成功: G:\100GOPRO\video_nodes_GH012606\nodes.json のパース完了
+2025-03-22 17:46:44,600 - srt_scene_tools.content_analyzer - INFO - Found 37 video contents (成功: 37, エラー: 8)
+2025-03-22 17:46:44,601 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:46:44,603 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:46:44,604 - srt_scene_tools.content_analyzer - INFO - LLMを使用してコンテンツを分析します
+2025-03-22 17:47:27,142 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2025-03-22 17:53:30,527 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:53:30,528 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:53:30,528 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 17:53:31,405 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-03-22 17:53:31,427 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-22 17:53:31,987 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 17:53:32,447 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 17:53:32,767 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 17:53:33,758 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-launched-telemetry/ "HTTP/1.1 200 OK"
+2025-03-22 17:53:34,137 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 17:53:46,788 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2025-03-22 17:53:57,354 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2025-03-22 17:54:16,547 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:54:16,547 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:54:16,547 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 17:54:17,624 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-03-22 17:54:17,648 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-22 17:54:17,866 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 17:54:18,117 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 17:54:18,630 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 17:54:20,065 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-launched-telemetry/ "HTTP/1.1 200 OK"
+2025-03-22 17:54:20,082 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 17:54:21,942 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2025-03-22 17:56:55,825 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 17:56:55,825 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 17:56:55,826 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 17:56:56,721 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-03-22 17:56:56,757 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-22 17:56:57,002 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 17:56:57,236 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 17:56:57,685 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 17:56:58,486 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 17:56:59,185 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-launched-telemetry/ "HTTP/1.1 200 OK"
+2025-03-22 18:00:11,155 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:00:11,156 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:00:11,156 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 18:00:12,215 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:00:12,665 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 18:00:13,503 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 18:01:04,611 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:01:04,613 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:01:04,613 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 18:01:05,460 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-03-22 18:01:05,504 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-22 18:01:05,644 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:01:05,975 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 18:01:06,531 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:01:07,047 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 18:01:08,813 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-launched-telemetry/ "HTTP/1.1 200 OK"
+2025-03-22 18:06:15,473 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:06:15,474 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:06:15,478 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 18:06:16,882 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:06:17,141 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 18:06:18,283 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 18:06:21,876 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:06:21,876 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:06:21,876 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 18:06:22,975 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:06:23,438 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 18:06:24,153 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 18:08:03,431 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:08:03,432 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:08:03,432 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 18:08:04,271 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-03-22 18:08:04,295 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-22 18:08:04,558 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:08:04,802 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 18:08:05,242 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:08:06,151 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 18:08:06,594 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-launched-telemetry/ "HTTP/1.1 200 OK"
+2025-03-22 18:08:29,778 - srt_scene_tools.gui.scenario_gui - INFO - テキスト入力から取得したフォルダパス: {'path': 'C:\\Users\\motoc\\AppData\\Local\\Temp\\gradio\\0f76d3202994c5b2179433b99b951e59b163784d\\GH012562.MP4', 'url': '/file=C:\\Users\\motoc\\AppData\\Local\\Temp\\gradio\\0f76d3202994c5b2179433b99b951e59b163784d\\GH012562.MP4', 'size': 836668975, 'orig_name': 'GH012562.MP4', 'mime_type': '', 'is_stream': False}
+2025-03-22 18:08:29,778 - srt_scene_tools.gui.scenario_gui - WARNING - 無効なフォルダパス: {'path': 'C:\\Users\\motoc\\AppData\\Local\\Temp\\gradio\\0f76d3202994c5b2179433b99b951e59b163784d\\GH012562.MP4', 'url': '/file=C:\\Users\\motoc\\AppData\\Local\\Temp\\gradio\\0f76d3202994c5b2179433b99b951e59b163784d\\GH012562.MP4', 'size': 836668975, 'orig_name': 'GH012562.MP4', 'mime_type': '', 'is_stream': False}
+2025-03-22 18:10:09,531 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:10:09,531 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:10:09,531 - srt_scene_tools.gui.scenario_gui - INFO - ScenarioWriterApp initialized
+2025-03-22 18:10:10,341 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2025-03-22 18:10:10,374 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-03-22 18:10:10,708 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:10:11,064 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-03-22 18:10:11,265 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2025-03-22 18:10:12,215 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-initiated-analytics/ "HTTP/1.1 200 OK"
+2025-03-22 18:10:12,683 - httpx - INFO - HTTP Request: POST https://api.gradio.app/gradio-launched-telemetry/ "HTTP/1.1 200 OK"
+2025-03-22 18:10:25,283 - srt_scene_tools.gui.scenario_gui - INFO - テキスト入力から取得したフォルダパス: 
+2025-03-22 18:10:25,283 - srt_scene_tools.gui.scenario_gui - WARNING - 無効なフォルダパス: 
+2025-03-22 18:10:40,981 - srt_scene_tools.gui.scenario_gui - INFO - 受け取ったファイルオブジェクト: C:\Users\motoc\AppData\Local\Temp\gradio\0f76d3202994c5b2179433b99b951e59b163784d\GH012562.MP4
+2025-03-22 18:10:40,981 - srt_scene_tools.gui.scenario_gui - INFO - 抽出されたファイルパス: C:\Users\motoc\AppData\Local\Temp\gradio\0f76d3202994c5b2179433b99b951e59b163784d\GH012562.MP4
+2025-03-22 18:10:40,982 - srt_scene_tools.gui.scenario_gui - INFO - ファイル選択から取得したフォルダパス: C:\Users\motoc\AppData\Local\Temp\gradio\0f76d3202994c5b2179433b99b951e59b163784d
+2025-03-22 18:10:40,984 - srt_scene_tools.gui.scenario_gui - INFO - 有効なフォルダとして設定: C:\Users\motoc\AppData\Local\Temp\gradio\0f76d3202994c5b2179433b99b951e59b163784d
+2025-03-22 18:11:02,820 - srt_scene_tools.gui.scenario_gui - INFO - テキスト入力から取得したフォルダパス: G:\100GOPRO
+2025-03-22 18:11:02,820 - srt_scene_tools.gui.scenario_gui - INFO - 有効なフォルダとして設定: G:\100GOPRO
+2025-03-22 18:11:02,881 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2025-03-22 18:11:10,145 - srt_scene_tools.gui.scenario_gui - INFO - コンテンツ分析を開始: G:\100GOPRO
+2025-03-22 18:11:10,146 - srt_scene_tools.content_analyzer - INFO - ContentCrawler initialized with folder: G:\100GOPRO
+2025-03-22 18:11:10,148 - srt_scene_tools.content_analyzer - INFO - Found 0 video contents (成功: 0, エラー: 0)
+2025-03-22 18:11:10,148 - srt_scene_tools.gui.scenario_gui - INFO - 処理されたビデオ数: 0
+2025-03-22 18:11:10,148 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:11:10,148 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:11:10,149 - srt_scene_tools.content_analyzer - WARNING - 分析するコンテンツがありません
+2025-03-22 18:11:10,149 - srt_scene_tools.gui.scenario_gui - INFO - ビデオ要約の生成: 成功=0, 失敗=0
+2025-03-22 18:11:10,149 - srt_scene_tools.gui.scenario_gui - INFO - 分析完了: 0 件のビデオが見つかりました。成功: 0, 失敗: 0
+2025-03-22 18:11:10,192 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\motoc\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] 既存の接続はリモート ホストに強制的に切断されました。
+2025-03-22 18:20:58,646 - srt_scene_tools.content_analyzer - WARNING - GOOGLE_API_KEY環境変数が設定されていません。デモモードで動作します。
+2025-03-22 18:20:58,646 - srt_scene_tools.content_analyzer - INFO - Gemini 1.5 Flashモデルを初期化しました
+2025-03-22 18:20:58,647 - srt_scene_tools.gui.scenario_tk_gui - INFO - ScenarioWriterApp initialized
+2025-03-25 01:16:30,791 - srt_scene_tools.gui.scene_selection_gui - INFO - SceneSelectionGUI initialized
+2025-03-25 01:17:36,891 - srt_scene_tools.utils - INFO - ContentCrawler initialized for folder: G:/100GOPRO
+2025-03-25 01:17:38,781 - srt_scene_tools.utils - INFO - Found 84 content items in G:/100GOPRO
+2025-03-25 01:17:38,783 - srt_scene_tools.editing_agent - INFO - EditingAgent initialized with 271 scenes from 84 videos
+2025-03-25 01:17:38,784 - srt_scene_tools.scenario_writer - INFO - ScenarioWriter initialized
+2025-03-25 01:17:38,784 - srt_scene_tools.scenario_writer - INFO - EnhancedScenarioWriter initialized with emotion and scene type support
+2025-03-25 01:17:41,312 - srt_scene_tools.gui.scene_selection_gui - INFO - Loaded 84 videos from G:/100GOPRO
+2025-03-25 01:19:07,295 - srt_scene_tools.scenario_writer - INFO - シナリオ生成開始: タイトル=, 対象視聴者=
+2025-03-25 01:19:07,296 - srt_scene_tools.scenario_writer - INFO - 処理対象のコンテンツ数: 84
+2025-03-25 01:19:07,296 - srt_scene_tools.scenario_writer - INFO - ビデオ 1 (ビデオ 1): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,297 - srt_scene_tools.scenario_writer - INFO - ビデオ 2 (ビデオ 2): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,297 - srt_scene_tools.scenario_writer - INFO - ビデオ 3 (ビデオ 3): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,297 - srt_scene_tools.scenario_writer - INFO - ビデオ 4 (ビデオ 4): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,297 - srt_scene_tools.scenario_writer - INFO - ビデオ 5 (ビデオ 5): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,297 - srt_scene_tools.scenario_writer - INFO - ビデオ 6 (ビデオ 6): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,298 - srt_scene_tools.scenario_writer - INFO - ビデオ 7 (ビデオ 7): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,298 - srt_scene_tools.scenario_writer - INFO - ビデオ 8 (ビデオ 8): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,298 - srt_scene_tools.scenario_writer - INFO - ビデオ 9 (ビデオ 9): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,299 - srt_scene_tools.scenario_writer - INFO - ビデオ 10 (ビデオ 10): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,299 - srt_scene_tools.scenario_writer - INFO - ビデオ 11 (ビデオ 11): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,299 - srt_scene_tools.scenario_writer - INFO - ビデオ 12 (ビデオ 12): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,299 - srt_scene_tools.scenario_writer - INFO - ビデオ 13 (ビデオ 13): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,300 - srt_scene_tools.scenario_writer - INFO - ビデオ 14 (ビデオ 14): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,300 - srt_scene_tools.scenario_writer - INFO - ビデオ 15 (ビデオ 15): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,300 - srt_scene_tools.scenario_writer - INFO - ビデオ 16 (ビデオ 16): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,300 - srt_scene_tools.scenario_writer - INFO - ビデオ 17 (ビデオ 17): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,301 - srt_scene_tools.scenario_writer - INFO - ビデオ 18 (ビデオ 18): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,301 - srt_scene_tools.scenario_writer - INFO - ビデオ 19 (ビデオ 19): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,301 - srt_scene_tools.scenario_writer - INFO - ビデオ 20 (ビデオ 20): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,302 - srt_scene_tools.scenario_writer - INFO - ビデオ 21 (ビデオ 21): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,302 - srt_scene_tools.scenario_writer - INFO - ビデオ 22 (ビデオ 22): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,302 - srt_scene_tools.scenario_writer - INFO - ビデオ 23 (ビデオ 23): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,302 - srt_scene_tools.scenario_writer - INFO - ビデオ 24 (ビデオ 24): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,303 - srt_scene_tools.scenario_writer - INFO - ビデオ 25 (ビデオ 25): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,303 - srt_scene_tools.scenario_writer - INFO - ビデオ 26 (ビデオ 26): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,303 - srt_scene_tools.scenario_writer - INFO - ビデオ 27 (ビデオ 27): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,303 - srt_scene_tools.scenario_writer - INFO - ビデオ 28 (ビデオ 28): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,304 - srt_scene_tools.scenario_writer - INFO - ビデオ 29 (ビデオ 29): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,304 - srt_scene_tools.scenario_writer - INFO - ビデオ 30 (ビデオ 30): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,304 - srt_scene_tools.scenario_writer - INFO - ビデオ 31 (ビデオ 31): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,305 - srt_scene_tools.scenario_writer - INFO - ビデオ 32 (ビデオ 32): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,305 - srt_scene_tools.scenario_writer - INFO - ビデオ 33 (ビデオ 33): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,305 - srt_scene_tools.scenario_writer - INFO - ビデオ 34 (ビデオ 34): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,305 - srt_scene_tools.scenario_writer - INFO - ビデオ 35 (ビデオ 35): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,306 - srt_scene_tools.scenario_writer - INFO - ビデオ 36 (ビデオ 36): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,306 - srt_scene_tools.scenario_writer - INFO - ビデオ 37 (ビデオ 37): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,306 - srt_scene_tools.scenario_writer - INFO - ビデオ 38 (ビデオ 38): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,306 - srt_scene_tools.scenario_writer - INFO - ビデオ 39 (ビデオ 39): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,307 - srt_scene_tools.scenario_writer - INFO - ビデオ 40 (ビデオ 40): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,307 - srt_scene_tools.scenario_writer - INFO - ビデオ 41 (ビデオ 41): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,307 - srt_scene_tools.scenario_writer - INFO - ビデオ 42 (ビデオ 42): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,308 - srt_scene_tools.scenario_writer - INFO - ビデオ 43 (ビデオ 43): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,308 - srt_scene_tools.scenario_writer - INFO - ビデオ 44 (ビデオ 44): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,308 - srt_scene_tools.scenario_writer - INFO - ビデオ 45 (ビデオ 45): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,308 - srt_scene_tools.scenario_writer - INFO - ビデオ 46 (ビデオ 46): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,309 - srt_scene_tools.scenario_writer - INFO - ビデオ 47 (ビデオ 47): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,309 - srt_scene_tools.scenario_writer - INFO - ビデオ 48 (ビデオ 48): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,309 - srt_scene_tools.scenario_writer - INFO - ビデオ 49 (ビデオ 49): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,309 - srt_scene_tools.scenario_writer - INFO - ビデオ 50 (ビデオ 50): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,310 - srt_scene_tools.scenario_writer - INFO - ビデオ 51 (ビデオ 51): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,310 - srt_scene_tools.scenario_writer - INFO - ビデオ 52 (ビデオ 52): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,310 - srt_scene_tools.scenario_writer - INFO - ビデオ 53 (ビデオ 53): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,311 - srt_scene_tools.scenario_writer - INFO - ビデオ 54 (ビデオ 54): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,311 - srt_scene_tools.scenario_writer - INFO - ビデオ 55 (ビデオ 55): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,311 - srt_scene_tools.scenario_writer - INFO - ビデオ 56 (ビデオ 56): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,311 - srt_scene_tools.scenario_writer - INFO - ビデオ 57 (ビデオ 57): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,312 - srt_scene_tools.scenario_writer - INFO - ビデオ 58 (ビデオ 58): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,312 - srt_scene_tools.scenario_writer - INFO - ビデオ 59 (ビデオ 59): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,312 - srt_scene_tools.scenario_writer - INFO - ビデオ 60 (ビデオ 60): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,312 - srt_scene_tools.scenario_writer - INFO - ビデオ 61 (ビデオ 61): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,313 - srt_scene_tools.scenario_writer - INFO - ビデオ 62 (ビデオ 62): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,313 - srt_scene_tools.scenario_writer - INFO - ビデオ 63 (ビデオ 63): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,313 - srt_scene_tools.scenario_writer - INFO - ビデオ 64 (ビデオ 64): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,314 - srt_scene_tools.scenario_writer - INFO - ビデオ 65 (ビデオ 65): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,314 - srt_scene_tools.scenario_writer - INFO - ビデオ 66 (ビデオ 66): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,314 - srt_scene_tools.scenario_writer - INFO - ビデオ 67 (ビデオ 67): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,314 - srt_scene_tools.scenario_writer - INFO - ビデオ 68 (ビデオ 68): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,315 - srt_scene_tools.scenario_writer - INFO - ビデオ 69 (ビデオ 69): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,315 - srt_scene_tools.scenario_writer - INFO - ビデオ 70 (ビデオ 70): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,315 - srt_scene_tools.scenario_writer - INFO - ビデオ 71 (ビデオ 71): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,315 - srt_scene_tools.scenario_writer - INFO - ビデオ 72 (ビデオ 72): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,316 - srt_scene_tools.scenario_writer - INFO - ビデオ 73 (ビデオ 73): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,316 - srt_scene_tools.scenario_writer - INFO - ビデオ 74 (ビデオ 74): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,316 - srt_scene_tools.scenario_writer - INFO - ビデオ 75 (ビデオ 75): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,316 - srt_scene_tools.scenario_writer - INFO - ビデオ 76 (ビデオ 76): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,317 - srt_scene_tools.scenario_writer - INFO - ビデオ 77 (ビデオ 77): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,317 - srt_scene_tools.scenario_writer - INFO - ビデオ 78 (ビデオ 78): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,317 - srt_scene_tools.scenario_writer - INFO - ビデオ 79 (ビデオ 79): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,317 - srt_scene_tools.scenario_writer - INFO - ビデオ 80 (ビデオ 80): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,318 - srt_scene_tools.scenario_writer - INFO - ビデオ 81 (ビデオ 81): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,318 - srt_scene_tools.scenario_writer - INFO - ビデオ 82 (ビデオ 82): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,318 - srt_scene_tools.scenario_writer - INFO - ビデオ 83 (ビデオ 83): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,319 - srt_scene_tools.scenario_writer - INFO - ビデオ 84 (ビデオ 84): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:07,319 - srt_scene_tools.scenario_writer - INFO - 抽出されたコンセプト: トピック数=0, 場所=0
+2025-03-25 01:19:07,319 - srt_scene_tools.scenario_writer - INFO - シナリオ生成完了: セクション数=2
+2025-03-25 01:19:08,964 - srt_scene_tools.gui.scene_selection_gui - INFO - Generated scenario with 2 sections
+2025-03-25 01:19:22,935 - srt_scene_tools.scenario_writer - INFO - シナリオ生成開始: タイトル=, 対象視聴者=
+2025-03-25 01:19:22,936 - srt_scene_tools.scenario_writer - INFO - 処理対象のコンテンツ数: 84
+2025-03-25 01:19:22,936 - srt_scene_tools.scenario_writer - INFO - ビデオ 1 (ビデオ 1): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,936 - srt_scene_tools.scenario_writer - INFO - ビデオ 2 (ビデオ 2): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,937 - srt_scene_tools.scenario_writer - INFO - ビデオ 3 (ビデオ 3): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,937 - srt_scene_tools.scenario_writer - INFO - ビデオ 4 (ビデオ 4): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,937 - srt_scene_tools.scenario_writer - INFO - ビデオ 5 (ビデオ 5): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,938 - srt_scene_tools.scenario_writer - INFO - ビデオ 6 (ビデオ 6): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,938 - srt_scene_tools.scenario_writer - INFO - ビデオ 7 (ビデオ 7): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,938 - srt_scene_tools.scenario_writer - INFO - ビデオ 8 (ビデオ 8): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,939 - srt_scene_tools.scenario_writer - INFO - ビデオ 9 (ビデオ 9): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,939 - srt_scene_tools.scenario_writer - INFO - ビデオ 10 (ビデオ 10): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,939 - srt_scene_tools.scenario_writer - INFO - ビデオ 11 (ビデオ 11): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,940 - srt_scene_tools.scenario_writer - INFO - ビデオ 12 (ビデオ 12): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,940 - srt_scene_tools.scenario_writer - INFO - ビデオ 13 (ビデオ 13): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,940 - srt_scene_tools.scenario_writer - INFO - ビデオ 14 (ビデオ 14): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,940 - srt_scene_tools.scenario_writer - INFO - ビデオ 15 (ビデオ 15): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,940 - srt_scene_tools.scenario_writer - INFO - ビデオ 16 (ビデオ 16): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,941 - srt_scene_tools.scenario_writer - INFO - ビデオ 17 (ビデオ 17): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,941 - srt_scene_tools.scenario_writer - INFO - ビデオ 18 (ビデオ 18): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,941 - srt_scene_tools.scenario_writer - INFO - ビデオ 19 (ビデオ 19): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,941 - srt_scene_tools.scenario_writer - INFO - ビデオ 20 (ビデオ 20): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,942 - srt_scene_tools.scenario_writer - INFO - ビデオ 21 (ビデオ 21): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,942 - srt_scene_tools.scenario_writer - INFO - ビデオ 22 (ビデオ 22): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,942 - srt_scene_tools.scenario_writer - INFO - ビデオ 23 (ビデオ 23): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,943 - srt_scene_tools.scenario_writer - INFO - ビデオ 24 (ビデオ 24): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,943 - srt_scene_tools.scenario_writer - INFO - ビデオ 25 (ビデオ 25): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,943 - srt_scene_tools.scenario_writer - INFO - ビデオ 26 (ビデオ 26): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,944 - srt_scene_tools.scenario_writer - INFO - ビデオ 27 (ビデオ 27): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,944 - srt_scene_tools.scenario_writer - INFO - ビデオ 28 (ビデオ 28): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,944 - srt_scene_tools.scenario_writer - INFO - ビデオ 29 (ビデオ 29): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,945 - srt_scene_tools.scenario_writer - INFO - ビデオ 30 (ビデオ 30): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,945 - srt_scene_tools.scenario_writer - INFO - ビデオ 31 (ビデオ 31): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,945 - srt_scene_tools.scenario_writer - INFO - ビデオ 32 (ビデオ 32): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,946 - srt_scene_tools.scenario_writer - INFO - ビデオ 33 (ビデオ 33): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,946 - srt_scene_tools.scenario_writer - INFO - ビデオ 34 (ビデオ 34): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,946 - srt_scene_tools.scenario_writer - INFO - ビデオ 35 (ビデオ 35): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,946 - srt_scene_tools.scenario_writer - INFO - ビデオ 36 (ビデオ 36): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,947 - srt_scene_tools.scenario_writer - INFO - ビデオ 37 (ビデオ 37): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,947 - srt_scene_tools.scenario_writer - INFO - ビデオ 38 (ビデオ 38): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,947 - srt_scene_tools.scenario_writer - INFO - ビデオ 39 (ビデオ 39): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,947 - srt_scene_tools.scenario_writer - INFO - ビデオ 40 (ビデオ 40): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,948 - srt_scene_tools.scenario_writer - INFO - ビデオ 41 (ビデオ 41): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,948 - srt_scene_tools.scenario_writer - INFO - ビデオ 42 (ビデオ 42): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,948 - srt_scene_tools.scenario_writer - INFO - ビデオ 43 (ビデオ 43): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,948 - srt_scene_tools.scenario_writer - INFO - ビデオ 44 (ビデオ 44): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,949 - srt_scene_tools.scenario_writer - INFO - ビデオ 45 (ビデオ 45): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,949 - srt_scene_tools.scenario_writer - INFO - ビデオ 46 (ビデオ 46): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,949 - srt_scene_tools.scenario_writer - INFO - ビデオ 47 (ビデオ 47): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,949 - srt_scene_tools.scenario_writer - INFO - ビデオ 48 (ビデオ 48): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,949 - srt_scene_tools.scenario_writer - INFO - ビデオ 49 (ビデオ 49): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,950 - srt_scene_tools.scenario_writer - INFO - ビデオ 50 (ビデオ 50): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,950 - srt_scene_tools.scenario_writer - INFO - ビデオ 51 (ビデオ 51): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,950 - srt_scene_tools.scenario_writer - INFO - ビデオ 52 (ビデオ 52): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,950 - srt_scene_tools.scenario_writer - INFO - ビデオ 53 (ビデオ 53): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,950 - srt_scene_tools.scenario_writer - INFO - ビデオ 54 (ビデオ 54): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,951 - srt_scene_tools.scenario_writer - INFO - ビデオ 55 (ビデオ 55): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,951 - srt_scene_tools.scenario_writer - INFO - ビデオ 56 (ビデオ 56): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,951 - srt_scene_tools.scenario_writer - INFO - ビデオ 57 (ビデオ 57): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,951 - srt_scene_tools.scenario_writer - INFO - ビデオ 58 (ビデオ 58): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,952 - srt_scene_tools.scenario_writer - INFO - ビデオ 59 (ビデオ 59): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,952 - srt_scene_tools.scenario_writer - INFO - ビデオ 60 (ビデオ 60): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,952 - srt_scene_tools.scenario_writer - INFO - ビデオ 61 (ビデオ 61): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,952 - srt_scene_tools.scenario_writer - INFO - ビデオ 62 (ビデオ 62): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,953 - srt_scene_tools.scenario_writer - INFO - ビデオ 63 (ビデオ 63): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,953 - srt_scene_tools.scenario_writer - INFO - ビデオ 64 (ビデオ 64): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,954 - srt_scene_tools.scenario_writer - INFO - ビデオ 65 (ビデオ 65): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,954 - srt_scene_tools.scenario_writer - INFO - ビデオ 66 (ビデオ 66): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,954 - srt_scene_tools.scenario_writer - INFO - ビデオ 67 (ビデオ 67): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,955 - srt_scene_tools.scenario_writer - INFO - ビデオ 68 (ビデオ 68): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,955 - srt_scene_tools.scenario_writer - INFO - ビデオ 69 (ビデオ 69): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,955 - srt_scene_tools.scenario_writer - INFO - ビデオ 70 (ビデオ 70): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,955 - srt_scene_tools.scenario_writer - INFO - ビデオ 71 (ビデオ 71): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,955 - srt_scene_tools.scenario_writer - INFO - ビデオ 72 (ビデオ 72): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,956 - srt_scene_tools.scenario_writer - INFO - ビデオ 73 (ビデオ 73): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,956 - srt_scene_tools.scenario_writer - INFO - ビデオ 74 (ビデオ 74): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,956 - srt_scene_tools.scenario_writer - INFO - ビデオ 75 (ビデオ 75): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,956 - srt_scene_tools.scenario_writer - INFO - ビデオ 76 (ビデオ 76): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,957 - srt_scene_tools.scenario_writer - INFO - ビデオ 77 (ビデオ 77): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,957 - srt_scene_tools.scenario_writer - INFO - ビデオ 78 (ビデオ 78): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,957 - srt_scene_tools.scenario_writer - INFO - ビデオ 79 (ビデオ 79): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,957 - srt_scene_tools.scenario_writer - INFO - ビデオ 80 (ビデオ 80): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,958 - srt_scene_tools.scenario_writer - INFO - ビデオ 81 (ビデオ 81): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,958 - srt_scene_tools.scenario_writer - INFO - ビデオ 82 (ビデオ 82): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,958 - srt_scene_tools.scenario_writer - INFO - ビデオ 83 (ビデオ 83): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,958 - srt_scene_tools.scenario_writer - INFO - ビデオ 84 (ビデオ 84): シーン数=0, 長さ=0秒, 処理結果=失敗
+2025-03-25 01:19:22,958 - srt_scene_tools.scenario_writer - INFO - 抽出されたコンセプト: トピック数=0, 場所=0
+2025-03-25 01:19:22,959 - srt_scene_tools.scenario_writer - INFO - シナリオ生成完了: セクション数=2
+2025-03-25 01:19:24,340 - srt_scene_tools.gui.scene_selection_gui - INFO - Generated scenario with 2 sections
