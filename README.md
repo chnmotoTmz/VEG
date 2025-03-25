@@ -82,4 +82,4 @@ python -m srt_scene_tools.cli -c config.json
 - ファイル名に含まれる連番は4桁の0埋めで統一されています
 
 ## ライセンス
-[ライセンス情報を記載] 
+[ライセンス情報を記載] "# VEG" 
