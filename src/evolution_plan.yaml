@@ -1,0 +1,944 @@
+version: '1.0'
+project_settings:
+  default_goals:
+  - READABILITY
+  - MAINTAINABILITY
+  default_constraints:
+  - preserve_semantics
+evolution_tasks:
+- id: add_doc_GeminiClient_847cb5d6
+  description: クラス 'GeminiClient' にドキュメントが不足しています
+  target:
+    file: api_client.py
+    class: GeminiClient
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_04c49002
+  description: メソッド 'GeminiClient._initialize_client' に型ヒントが不足しています
+  target:
+    file: api_client.py
+    function: _initialize_client
+    class: GeminiClient
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_0e4a4ac6
+  description: メソッド 'GeminiClient._rotate_api_key' に型ヒントが不足しています
+  target:
+    file: api_client.py
+    function: _rotate_api_key
+    class: GeminiClient
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_d35d433f
+  description: メソッド 'GeminiClient.text_analysis' に型ヒントが不足しています
+  target:
+    file: api_client.py
+    function: text_analysis
+    class: GeminiClient
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_0e6639fa
+  description: メソッド 'GeminiClient.analyze_image' に型ヒントが不足しています
+  target:
+    file: api_client.py
+    function: analyze_image
+    class: GeminiClient
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_4ac2f53b
+  description: 関数 'main' に型ヒントが不足しています
+  target:
+    file: cli.py
+    function: main
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_006ecde3
+  description: 関数 'main' にドキュメントが不足しています
+  target:
+    file: cli.py
+    function: main
+  goals:
+  - DOCUMENTATION
+  instructions: 関数の目的、引数、戻り値、および例外について説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: refactor_large_class_0ec24fea
+  description: クラス 'ConceptGenerator' が大きすぎるため、リファクタリングが推奨されます
+  target:
+    file: concept_generator.py
+    class: ConceptGenerator
+  goals:
+  - MAINTAINABILITY
+  - READABILITY
+  instructions: クラスの責務を分析し、より小さな複数のクラスに分割してください。単一責任の原則を適用します。
+  priority: 1
+  enabled: true
+- id: add_type_hints_39571691
+  description: メソッド 'ConceptGenerator.generate' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: generate
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_687eef50
+  description: メソッド 'ConceptGenerator._extract_topics' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _extract_topics
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_1a852c07
+  description: メソッド 'ConceptGenerator._extract_locations' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _extract_locations
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_19f11a4c
+  description: メソッド 'ConceptGenerator._calculate_total_duration' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _calculate_total_duration
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_532aebb4
+  description: メソッド 'ConceptGenerator._determine_content_type' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _determine_content_type
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_2be930d4
+  description: メソッド 'ConceptGenerator._determine_target_audience' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _determine_target_audience
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_4f9c05da
+  description: メソッド 'ConceptGenerator._generate_title' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _generate_title
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_cb571a4e
+  description: メソッド 'ConceptGenerator._generate_concept_description' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _generate_concept_description
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_794eef28
+  description: メソッド 'ConceptGenerator._generate_style_suggestions' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: _generate_style_suggestions
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_dbe9ca19
+  description: メソッド 'ConceptGenerator.save_concept' に型ヒントが不足しています
+  target:
+    file: concept_generator.py
+    function: save_concept
+    class: ConceptGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_comments_6df6cb27
+  description: ファイル 'concept_generator.py' のコメントが不足しています
+  target:
+    file: concept_generator.py
+  goals:
+  - DOCUMENTATION
+  - READABILITY
+  instructions: 複雑なロジックや重要な処理に適切なコメントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_ContentCrawler_80c381b3
+  description: クラス 'ContentCrawler' にドキュメントが不足しています
+  target:
+    file: content_crawler.py
+    class: ContentCrawler
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_doc_84fc7950
+  description: メソッド 'ContentCrawler.__init__' にドキュメントが不足しています
+  target:
+    file: content_crawler.py
+    function: __init__
+    class: ContentCrawler
+  goals:
+  - DOCUMENTATION
+  instructions: 関数の目的、引数、戻り値、および例外について説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_68e4977a
+  description: メソッド 'ContentCrawler.crawl' に型ヒントが不足しています
+  target:
+    file: content_crawler.py
+    function: crawl
+    class: ContentCrawler
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_6fa2c67d
+  description: メソッド 'ContentCrawler._load_content' に型ヒントが不足しています
+  target:
+    file: content_crawler.py
+    function: _load_content
+    class: ContentCrawler
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_EDLGenerator_63febe02
+  description: クラス 'EDLGenerator' にドキュメントが不足しています
+  target:
+    file: edl_generator.py
+    class: EDLGenerator
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_doc_5e1e6788
+  description: メソッド 'EDLGenerator.__init__' にドキュメントが不足しています
+  target:
+    file: edl_generator.py
+    function: __init__
+    class: EDLGenerator
+  goals:
+  - DOCUMENTATION
+  instructions: 関数の目的、引数、戻り値、および例外について説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_ae384bc0
+  description: メソッド 'EDLGenerator.generate' に型ヒントが不足しています
+  target:
+    file: edl_generator.py
+    function: generate
+    class: EDLGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_3824d197
+  description: メソッド 'EDLGenerator._create_edl_entry' に型ヒントが不足しています
+  target:
+    file: edl_generator.py
+    function: _create_edl_entry
+    class: EDLGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_9a59b391
+  description: メソッド 'EDLGenerator._seconds_to_timecode' に型ヒントが不足しています
+  target:
+    file: edl_generator.py
+    function: _seconds_to_timecode
+    class: EDLGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_7f0c882e
+  description: メソッド 'EvolveChip.__init__' にドキュメントが不足しています
+  target:
+    file: evolve_chip.py
+    function: __init__
+    class: EvolveChip
+  goals:
+  - DOCUMENTATION
+  instructions: 関数の目的、引数、戻り値、および例外について説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_b9110c26
+  description: メソッド 'EvolveChip.__call__' に型ヒントが不足しています
+  target:
+    file: evolve_chip.py
+    function: __call__
+    class: EvolveChip
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_758da878
+  description: メソッド 'EvolveChip._run_with_ai_support' に型ヒントが不足しています
+  target:
+    file: evolve_chip.py
+    function: _run_with_ai_support
+    class: EvolveChip
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_f305cce8
+  description: メソッド 'EvolveChip._log_ai_info' に型ヒントが不足しています
+  target:
+    file: evolve_chip.py
+    function: _log_ai_info
+    class: EvolveChip
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: refactor_large_class_b1bab034
+  description: クラス 'MainWindow' が大きすぎるため、リファクタリングが推奨されます
+  target:
+    file: gui.py
+    class: MainWindow
+  goals:
+  - MAINTAINABILITY
+  - READABILITY
+  instructions: クラスの責務を分析し、より小さな複数のクラスに分割してください。単一責任の原則を適用します。
+  priority: 1
+  enabled: true
+- id: add_doc_MainWindow_a0c1c62e
+  description: クラス 'MainWindow' にドキュメントが不足しています
+  target:
+    file: gui.py
+    class: MainWindow
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_doc_b148c4f1
+  description: メソッド 'MainWindow.__init__' にドキュメントが不足しています
+  target:
+    file: gui.py
+    function: __init__
+    class: MainWindow
+  goals:
+  - DOCUMENTATION
+  instructions: 関数の目的、引数、戻り値、および例外について説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_cd5ecea8
+  description: メソッド 'MainWindow._init_process_tab' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: _init_process_tab
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_b8f2e8cc
+  description: メソッド 'MainWindow._init_scenario_tab' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: _init_scenario_tab
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_57918ede
+  description: メソッド 'MainWindow._init_files_tab' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: _init_files_tab
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_51056881
+  description: メソッド 'MainWindow.select_config' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: select_config
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_3ce784a4
+  description: メソッド 'MainWindow.load_config' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: load_config
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_f3e0d3b8
+  description: メソッド 'MainWindow.update_button_states' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: update_button_states
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_3e8c0e86
+  description: メソッド 'MainWindow.run_phase' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: run_phase
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_1249d921
+  description: メソッド 'MainWindow.save_scenario' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: save_scenario
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_25cd70d1
+  description: メソッド 'MainWindow.refresh_file_list' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: refresh_file_list
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_da265f14
+  description: メソッド 'MainWindow.load_selected_file' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: load_selected_file
+    class: MainWindow
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_f4954a8e
+  description: 関数 'main' に型ヒントが不足しています
+  target:
+    file: gui.py
+    function: main
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_1c96f866
+  description: 関数 'main' にドキュメントが不足しています
+  target:
+    file: gui.py
+    function: main
+  goals:
+  - DOCUMENTATION
+  instructions: 関数の目的、引数、戻り値、および例外について説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: refactor_large_file_34d00ec3
+  description: ファイル 'gui.py' が大きすぎるため、分割が推奨されます (306 行)
+  target:
+    file: gui.py
+  goals:
+  - MAINTAINABILITY
+  - ORGANIZATION
+  instructions: ファイルの責務を分析し、論理的な単位で複数のファイルに分割してください。
+  priority: 1
+  enabled: true
+- id: add_comments_4e55e809
+  description: ファイル 'gui.py' のコメントが不足しています
+  target:
+    file: gui.py
+  goals:
+  - DOCUMENTATION
+  - READABILITY
+  instructions: 複雑なロジックや重要な処理に適切なコメントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_VideoEditAgent_51519b26
+  description: クラス 'VideoEditAgent' にドキュメントが不足しています
+  target:
+    file: main.py
+    class: VideoEditAgent
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_f3cfafdf
+  description: メソッド 'VideoEditAgent.analyze_contents' に型ヒントが不足しています
+  target:
+    file: main.py
+    function: analyze_contents
+    class: VideoEditAgent
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_3ebaa854
+  description: メソッド 'VideoEditAgent.select_scenes' に型ヒントが不足しています
+  target:
+    file: main.py
+    function: select_scenes
+    class: VideoEditAgent
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_7dfc2365
+  description: メソッド 'VideoEditAgent.generate_outputs' に型ヒントが不足しています
+  target:
+    file: main.py
+    function: generate_outputs
+    class: VideoEditAgent
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_974fda15
+  description: メソッド 'VideoEditAgent.run' に型ヒントが不足しています
+  target:
+    file: main.py
+    function: run
+    class: VideoEditAgent
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_ced9d8cd
+  description: 関数 'main' に型ヒントが不足しています
+  target:
+    file: main.py
+    function: main
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_ScenarioWriter_b3872164
+  description: クラス 'ScenarioWriter' にドキュメントが不足しています
+  target:
+    file: scenario_writer.py
+    class: ScenarioWriter
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_30f7fff8
+  description: メソッド 'ScenarioWriter.generate_concept' に型ヒントが不足しています
+  target:
+    file: scenario_writer.py
+    function: generate_concept
+    class: ScenarioWriter
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_5f707e09
+  description: メソッド 'ScenarioWriter._format_contents_summary' に型ヒントが不足しています
+  target:
+    file: scenario_writer.py
+    function: _format_contents_summary
+    class: ScenarioWriter
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_d50f020e
+  description: メソッド 'ScenarioWriter.save_concept' に型ヒントが不足しています
+  target:
+    file: scenario_writer.py
+    function: save_concept
+    class: ScenarioWriter
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_90435b94
+  description: メソッド 'ScenarioWriter.load_scenario' に型ヒントが不足しています
+  target:
+    file: scenario_writer.py
+    function: load_scenario
+    class: ScenarioWriter
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_7fe918b9
+  description: メソッド 'ScenarioWriter.create_scenario_template' に型ヒントが不足しています
+  target:
+    file: scenario_writer.py
+    function: create_scenario_template
+    class: ScenarioWriter
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_comments_378d6d84
+  description: ファイル 'scenario_writer.py' のコメントが不足しています
+  target:
+    file: scenario_writer.py
+  goals:
+  - DOCUMENTATION
+  - READABILITY
+  instructions: 複雑なロジックや重要な処理に適切なコメントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_SceneSelector_9198ee10
+  description: クラス 'SceneSelector' にドキュメントが不足しています
+  target:
+    file: scene_selector.py
+    class: SceneSelector
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_98b1a542
+  description: メソッド 'SceneSelector.select' に型ヒントが不足しています
+  target:
+    file: scene_selector.py
+    function: select
+    class: SceneSelector
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_5fa4c636
+  description: メソッド 'SceneSelector._select_scenes_with_ai' に型ヒントが不足しています
+  target:
+    file: scene_selector.py
+    function: _select_scenes_with_ai
+    class: SceneSelector
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_a2d61d07
+  description: メソッド 'SceneSelector._format_contents_summary' に型ヒントが不足しています
+  target:
+    file: scene_selector.py
+    function: _format_contents_summary
+    class: SceneSelector
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_comments_ad66391a
+  description: ファイル 'scene_selector.py' のコメントが不足しています
+  target:
+    file: scene_selector.py
+  goals:
+  - DOCUMENTATION
+  - READABILITY
+  instructions: 複雑なロジックや重要な処理に適切なコメントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_SRTGenerator_a45a05b1
+  description: クラス 'SRTGenerator' にドキュメントが不足しています
+  target:
+    file: srt_generator.py
+    class: SRTGenerator
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_doc_27b8c34e
+  description: メソッド 'SRTGenerator.__init__' にドキュメントが不足しています
+  target:
+    file: srt_generator.py
+    function: __init__
+    class: SRTGenerator
+  goals:
+  - DOCUMENTATION
+  instructions: 関数の目的、引数、戻り値、および例外について説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_8f53fec5
+  description: メソッド 'SRTGenerator.generate' に型ヒントが不足しています
+  target:
+    file: srt_generator.py
+    function: generate
+    class: SRTGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_22616044
+  description: メソッド 'SRTGenerator._create_srt_entry' に型ヒントが不足しています
+  target:
+    file: srt_generator.py
+    function: _create_srt_entry
+    class: SRTGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_a9012c7c
+  description: メソッド 'SRTGenerator._seconds_to_srt_time' に型ヒントが不足しています
+  target:
+    file: srt_generator.py
+    function: _seconds_to_srt_time
+    class: SRTGenerator
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_doc_UIManager_c627d515
+  description: クラス 'UIManager' にドキュメントが不足しています
+  target:
+    file: ui_manager.py
+    class: UIManager
+  goals:
+  - DOCUMENTATION
+  instructions: クラスの目的、使用法、重要な属性とメソッドについて説明するドキュメントを追加してください。
+  priority: 2
+  enabled: true
+- id: add_type_hints_fcb28e25
+  description: メソッド 'UIManager._setup_ui' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: _setup_ui
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_2d47ba79
+  description: メソッド 'UIManager._select_input_dir' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: _select_input_dir
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_b507433c
+  description: メソッド 'UIManager._select_output_dir' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: _select_output_dir
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_6b1b4e24
+  description: メソッド 'UIManager.update_status' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: update_status
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_70178bbb
+  description: メソッド 'UIManager.log_message' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: log_message
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_3c668127
+  description: メソッド 'UIManager.display_concept' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: display_concept
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_ed7368a0
+  description: メソッド 'UIManager.set_process_callback' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: set_process_callback
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+- id: add_type_hints_e3870fc0
+  description: メソッド 'UIManager.run' に型ヒントが不足しています
+  target:
+    file: ui_manager.py
+    function: run
+    class: UIManager
+  goals:
+  - TYPE_SAFETY
+  - DOCUMENTATION
+  instructions: パラメータと戻り値に適切な型ヒントを追加してください。
+  priority: 3
+  enabled: true
+evolved_chip:
+  mark: 🧬
+  created_at: '2025-04-03 06:47:47'
+  tool: EvolveExtract
+  description: このYAML設計書はEvolveExtractによって生成されました
+  uuid: a0d74f45-78a9-431a-b83b-e5874695a5da

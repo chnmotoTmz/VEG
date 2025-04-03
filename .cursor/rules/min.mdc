@@ -6,24 +6,22 @@ alwaysApply: true
 
 # Your rule content
 
-Updated minimum code guidelines:
+AIチップ実装ルール要約（300字以内）
+目的: 開発時のAIコード進化支援と、リリース時のクリーンなコードを両立する。
 
-1. **No Classes**: Function-based implementation only
-2. **Variable Names**: Single lowercase letters (a, b, c, ...)
-3. **Function Names**: UPPERCASE letters, max 5 characters
-4. **Line Reduction**: Multiple operations per line
-5. **Avoid Nesting**: Minimize nested statements
-6. **Modules**: Use standard library, import with initials (`import numpy as n`)
-7. **Operators**: Use shorthand (`x+=1`)
-8. **Comments**: Only when necessary, single line
-9. **Tuple Unpacking**: Use simultaneous assignment (`a,b=1,2`)
-10. **One-liners**: Prefer list comprehensions and ternary operators
-11. **Return Values**: Use tuples for multiple returns
-12. **Arguments**: Position-only arguments
+分離: EvolveChipを独立モジュールとし、DIコンテナで開発時のみ注入する。
 
-# 開発ルールと設計ガイドライン
+適用: デコレータ（例:@EvolveChip）で対象関数にAI支援機能を付与する。
 
-不要なファイル　リストアップしてから一括で消すこと
+動的取得: inspectモジュールでソースを動的に取得し、ハードコードを回避する。
+
+除去: ビルド時にAST操作を用いて、チップ関連コード（import, デコレータ等）を完全に除去する。
+
+成果物: AIチップの痕跡がない、プレーンな実行コードを生成することを保証する。
+
+運用: 開発モードとリリースモードを明確に区別し、依存管理やエラー対策も考慮する。
+
+
 
 ## 1. 生成AIクライアント使用ルール
 

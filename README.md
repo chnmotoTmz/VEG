@@ -1,113 +1,122 @@
 # SRT Scene Tools
 
-## 概要
-SRT Scene Toolsは、動画ファイルからシーン情報を抽出・分析し、編集作業をサポートするAIツールです。Gemini APIを活用して、動画コンテンツを探索し、シーンごとに分析して、EDL（Edit Decision List）ファイルとSRT（字幕）ファイルを生成することができます。
+映像編集支援ツール - コンテンツ解析、シーン選択、EDL/SRT生成をサポート
 
-## 主な機能
-- 動画ファイルからのシーン抽出と分析
-- AIを活用した作品コンセプト生成
-- シナリオに基づいたシーン選別
-- 編集用EDLファイルの生成
-- 字幕用SRTファイルの生成
+## 機能概要
 
-## 必要要件
-- Python 3.8以上
-- Google Gemini API キー
-- FFmpeg（動画処理用）
+このツールは、映像コンテンツの編集作業を3つのフェーズに分けて支援します：
+
+1. **コンテンツ解析フェーズ**
+   - 映像コンテンツの自動解析
+   - タイトルとコンセプトの生成
+   - シナリオテンプレートの作成
+
+2. **シーン選択フェーズ**
+   - シナリオに基づくシーン選択
+   - セクションごとのシーン割り当て
+   - 選択理由の記録
+
+3. **出力生成フェーズ**
+   - EDLファイルの生成
+   - SRTファイルの生成
+   - エフェクト情報の付与
 
 ## インストール
 
 ```bash
-# リポジトリのクローン
-git clone https://github.com/yourusername/srt_scene_tools.git
-cd srt_scene_tools
-
-# 依存パッケージのインストール
 pip install -r requirements.txt
-
-# 環境変数の設定
-cp .env.example .env
-# .envファイルを編集してAPIキーを設定
-```
-
-## 環境変数の設定
-`.env`ファイルに以下の環境変数を設定してください：
-
-```ini
-GEMINI_API_KEY=your_api_key_here
-GEMINI_MODEL=gemini-1.5-flash
 ```
 
 ## 使用方法
 
-### 基本的な使い方
+### 1. コンテンツ解析フェーズ
+
 ```bash
-python -m src.cli run -c config.json
+python -m src.cli analyze -c config.json
 ```
 
-### 設定ファイル
-`config_template.json`を参考に、以下の項目を設定してください：
+このフェーズでは以下のファイルが生成されます：
+- `concept.json`: 生成されたタイトルとコンセプト
+- `scenario_template.json`: シナリオ作成用テンプレート
+- `logs/concept_prompt.txt`: コンセプト生成に使用したプロンプト
+
+### 2. シーン選択フェーズ
+
+```bash
+python -m src.cli select -c config.json
+```
+
+このフェーズでは以下のファイルが生成されます：
+- `selected.json`: 選択されたシーン情報
+- `logs/selection_prompt.txt`: シーン選択に使用したプロンプト
+
+### 3. 出力生成フェーズ
+
+```bash
+python -m src.cli generate -c config.json
+```
+
+このフェーズでは以下のファイルが生成されます：
+- `output.edl`: 編集決定リスト
+- `output.srt`: 字幕ファイル
+
+## 設定ファイル形式
 
 ```json
 {
-  "input_dir": "video_nodes/",
-  "scenario_file": "scenario.json",
-  "output_dir": "output/",
-  "options": {
-    "language": "ja",
-    "timecode_format": "NDF",
-    "frame_rate": 30,
-    "max_scenes": 50,
-    "min_scene_duration": 3.0,
-    "max_scene_duration": 60.0
+  "input_dir": "動画ファイルのディレクトリパス",
+  "output_dir": "出力先ディレクトリパス",
+  "video_format": "mp4",
+  "concept_params": {
+    "title_style": "魅力的",
+    "focus_keywords": ["自然", "旅行"]
+  },
+  "selection_params": {
+    "max_scenes": 10,
+    "min_scene_duration": 3,
+    "prefer_action": true
+  },
+  "output_params": {
+    "edl_format": "standard",
+    "srt_style": "minimal"
   }
 }
 ```
 
-## データ構造
-処理された動画ファイルのデータは、以下の構造で保存されます：
+## GUI モード
 
-```
-[動画ファイルのあるフォルダ]/
-├── 元の動画ファイル.MP4
-└── video_nodes_[動画ファイル名]/
-    ├── nodes.json          # シーン情報とメタデータ
-    ├── keyframes/          # シーンのキーフレーム画像
-    │   ├── keyframe_0000.jpg
-    │   ├── keyframe_0001.jpg
-    │   └── ...
-    └── previews/          # シーンのプレビュー動画
-        ├── preview_0000.mp4
-        ├── preview_0001.mp4
-        └── ...
+グラフィカルインターフェースを使用する場合：
+
+```bash
+python -m src.gui
 ```
 
-## モジュール構成
-- `content_crawler.py`: 動画コンテンツの探索
-- `concept_generator.py`: AIを活用した作品コンセプトの生成
-- `scene_selector.py`: シナリオに基づいたシーン選別
-- `edl_generator.py`: 編集リストの生成
-- `srt_generator.py`: 字幕ファイルの生成
-- `api_client.py`: Gemini API クライアント
-- `main.py`: メイン処理フロー
-- `cli.py`: コマンドラインインターフェース
+## 開発者向け情報
 
-## エラー処理
-- APIキーが設定されていない場合は適切なエラーメッセージが表示されます
-- ネットワークエラーやAPI制限の場合は自動的にリトライを行います
-- 処理中のエラーは`debug.log`に記録されます
+### 開発モードの有効化
 
-## 注意事項
-- 相対パスはすべて動画ファイルのあるフォルダを基準とします
-- 時間はすべて秒単位の浮動小数点数で記録されます
-- 日時情報はISO 8601形式で記録されます
-- ファイル名に含まれる連番は4桁の0埋めで統一されています
-- APIキーは必ず`.env`ファイルで管理し、直接コードに記述しないでください
+開発モードではAI支援機能が有効になります：
 
-## 開発ガイドライン
-詳細な開発ガイドラインは`CONTRIBUTING.md`を参照してください。
+```bash
+export DEVELOPMENT_MODE=1
+```
+
+または、.envファイルに記述：
+
+```
+DEVELOPMENT_MODE=1
+```
+
+### モジュール構成
+
+- `content_crawler.py`: 映像ファイルの解析
+- `scenario_writer.py`: コンセプトとシナリオテンプレート生成
+- `scene_selector.py`: シーン選択ロジック
+- `edl_generator.py`: EDLファイル生成
+- `srt_generator.py`: 字幕ファイル生成
+- `api_client.py`: AI APIクライアント
+- `evolve_chip.py`: AI開発支援機能
 
 ## ライセンス
-MIT License
 
-Copyright (c) 2024 Your Name
+MIT License 

@@ -1,4 +1,4 @@
-"""コンテンツ探索モジュール"""
+"""繧ｳ繝ｳ繝�繝ｳ繝�謗｢邏｢繝｢繧ｸ繝･繝ｼ繝ｫ"""
 
 import os
 import json
@@ -9,11 +9,11 @@ class ContentCrawler:
         pass
 
     def crawl(self, input_dir: str) -> List[Dict[str, Any]]:
-        """指定されたディレクトリからコンテンツを探索"""
+        """謖�螳壹＆繧後◆繝�繧｣繝ｬ繧ｯ繝医Μ縺九ｉ繧ｳ繝ｳ繝�繝ｳ繝�繧呈爾邏｢"""
         contents = []
         
         try:
-            # ディレクトリ内のvideo_nodes_で始まるディレクトリを探索
+            # 繝�繧｣繝ｬ繧ｯ繝医Μ蜀�縺ｮvideo_nodes_縺ｧ蟋九∪繧九ョ繧｣繝ｬ繧ｯ繝医Μ繧呈爾邏｢
             for item in os.listdir(input_dir):
                 item_path = os.path.join(input_dir, item)
                 if os.path.isdir(item_path) and item.startswith('video_nodes_'):
@@ -21,37 +21,37 @@ class ContentCrawler:
                     if content:
                         contents.append(content)
         except Exception as e:
-            print(f"警告: コンテンツの探索中にエラーが発生しました: {str(e)}")
+            print(f"隴ｦ蜻�: 繧ｳ繝ｳ繝�繝ｳ繝�縺ｮ謗｢邏｢荳ｭ縺ｫ繧ｨ繝ｩ繝ｼ縺檎匱逕溘＠縺ｾ縺励◆: {str(e)}")
         
         return contents
 
     def _load_content(self, content_dir: str) -> Dict[str, Any]:
-        """コンテンツディレクトリからデータを読み込み"""
+        """繧ｳ繝ｳ繝�繝ｳ繝�繝�繧｣繝ｬ繧ｯ繝医Μ縺九ｉ繝�繝ｼ繧ｿ繧定ｪｭ縺ｿ霎ｼ縺ｿ"""
         try:
-            # nodes.jsonファイルのパスを構築
+            # nodes.json繝輔ぃ繧､繝ｫ縺ｮ繝代せ繧呈ｧ狗ｯ�
             nodes_file = os.path.join(content_dir, 'nodes.json')
             
             if not os.path.exists(nodes_file):
-                print(f"警告: {nodes_file} が見つかりません")
+                print(f"隴ｦ蜻�: {nodes_file} 縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ")
                 return None
             
-            # ファイルを読み込み
+            # 繝輔ぃ繧､繝ｫ繧定ｪｭ縺ｿ霎ｼ縺ｿ
             with open(nodes_file, 'r', encoding='utf-8-sig') as f:
                 data = json.load(f)
             
-            # コンテンツIDを設定
+            # 繧ｳ繝ｳ繝�繝ｳ繝ИD繧定ｨｭ螳�
             content_id = os.path.basename(content_dir)
             
-            # シーン情報を整形
+            # 繧ｷ繝ｼ繝ｳ諠�蝣ｱ繧呈紛蠖｢
             scenes = []
             for scene in data.get('scenes', []):
-                # トランスクリプトを結合
+                # 繝医Λ繝ｳ繧ｹ繧ｯ繝ｪ繝励ヨ繧堤ｵ仙粋
                 transcript = ''
                 for t in scene.get('transcripts', []):
                     transcript += t.get('text', '') + ' '
                 transcript = transcript.strip()
                 
-                # シーン情報を作成
+                # 繧ｷ繝ｼ繝ｳ諠�蝣ｱ繧剃ｽ懈��
                 scene_info = {
                     'start_time': float(scene.get('start', 0)),
                     'end_time': float(scene.get('end', 0)),
@@ -61,7 +61,7 @@ class ContentCrawler:
                 }
                 scenes.append(scene_info)
             
-            # シーンを時間順にソート
+            # 繧ｷ繝ｼ繝ｳ繧呈凾髢馴�縺ｫ繧ｽ繝ｼ繝�
             scenes.sort(key=lambda x: x['start_time'])
             
             return {
@@ -71,5 +71,5 @@ class ContentCrawler:
             }
             
         except Exception as e:
-            print(f"警告: {content_dir} の読み込み中にエラーが発生しました: {str(e)}")
+            print(f"隴ｦ蜻�: {content_dir} 縺ｮ隱ｭ縺ｿ霎ｼ縺ｿ荳ｭ縺ｫ繧ｨ繝ｩ繝ｼ縺檎匱逕溘＠縺ｾ縺励◆: {str(e)}")
             return None

@@ -1,0 +1,13 @@
+{
+  "input_dir": "G:\\100GOPRO",
+  "scenario_file": "C:\\Users\\motoc\\workspace\\srt_scene_tools\\scenario.json",
+  "output_dir": "G:\\100GOPRO",
+  "options": {
+    "language": "ja",
+    "timecode_format": "NDF",
+    "frame_rate": 60,
+    "max_scenes": 50,
+    "min_scene_duration": 3.0,
+    "max_scene_duration": 60.0
+  }
+} 

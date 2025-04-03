@@ -1,0 +1,129 @@
+﻿{
+  "title": "大山一人旅：準備不足からの絶景",
+  "concept": "準備不足ながらも、相鉄線とケーブルカーを乗り継ぎ、大山登山に挑戦する一人旅の記録。氷点下の厳しい天候や体力、ルート選択、装備の不足といった困難を乗り越え、富士山と相模湾の絶景を望む山頂を目指し、下山するまでの道のりを淡々と描く。動画撮影を通して、自然の厳しさ、自身の限界、そして達成感を描写するリアリティ重視のドキュメンタリー作品。",
+  "themes": [
+    "自然の厳しさ",
+    "自己挑戦",
+    "達成感",
+    "準備不足からの逆転劇",
+    "一人旅"
+  ],
+  "sections": [
+    {
+      "section_id": "intro",
+      "type": "intro",
+      "title": "出発：準備不足と高揚感",
+      "description": "相鉄線に乗り込み、大山への旅が始まる。登山計画の甘さと装備の不足を自覚しながらも、山頂からの絶景への期待に胸を膨らませる様子を描く。",
+      "key_messages": [
+        "旅の始まり",
+        "計画の甘さ",
+        "高揚感と不安"
+      ],
+      "duration": 60,
+      "content_ids": [
+        "shot_001_train",
+        "shot_002_packing",
+        "shot_003_map"
+      ],
+      "effects": [
+        "アップテンポなBGM"
+      ]
+    },
+    {
+      "section_id": "main_1",
+      "type": "main",
+      "title": "ケーブルカーと登山道：最初の試練",
+      "description": "ケーブルカーに乗り換え、大山登山道へ。急な傾斜と氷点下の寒さ、そして予想以上の体力の消耗に苦戦する様子を克明に描く。装備不足も影響し始める。",
+      "key_messages": [
+        "体力の限界",
+        "寒さとの戦い",
+        "装備不足の影響"
+      ],
+      "duration": 300,
+      "content_ids": [
+        "shot_004_cablecar",
+        "shot_005_climbing_1",
+        "shot_006_cold_weather",
+        "shot_007_exhaustion"
+      ],
+      "effects": [
+        "風の音、息遣い強調",
+        "スローモーション"
+      ]
+    },
+    {
+      "section_id": "main_2",
+      "type": "main",
+      "title": "迷いと決断：ルート選択の葛藤",
+      "description": "ルート選択を誤り、困難な道に迷い込む。疲労困憊の中、冷静に状況を判断し、最適なルートを選択する葛藤と決断のプロセスを描く。",
+      "key_messages": [
+        "迷子",
+        "冷静な判断",
+        "困難への対応"
+      ],
+      "duration": 240,
+      "content_ids": [
+        "shot_008_lost",
+        "shot_009_decision_making",
+        "shot_010_new_route"
+      ],
+      "effects": [
+        "不安感を煽るBGM",
+        "手持ちカメラワーク"
+      ]
+    },
+    {
+      "section_id": "main_3",
+      "type": "main",
+      "title": "山頂：絶景と達成感",
+      "description": "困難を乗り越え、ついに山頂へ到達。富士山と相模湾の絶景を捉え、達成感と感動に浸る様子を描く。",
+      "key_messages": [
+        "山頂到達",
+        "絶景",
+        "達成感"
+      ],
+      "duration": 180,
+      "content_ids": [
+        "shot_011_summit",
+        "shot_012_view_fuji",
+        "shot_013_sagami_bay",
+        "shot_014_celebration"
+      ],
+      "effects": [
+        "感動的なBGM",
+        "ドローン撮影"
+      ]
+    },
+    {
+      "section_id": "outro",
+      "type": "outro",
+      "title": "下山と余韻",
+      "description": "下山し、旅の余韻に浸る。今回の経験を通して学んだこと、そして今後の挑戦への意欲を語る。",
+      "key_messages": [
+        "下山",
+        "反省",
+        "今後の展望"
+      ],
+      "duration": 120,
+      "content_ids": [
+        "shot_015_descent",
+        "shot_016_reflection"
+      ],
+      "effects": [
+        "穏やかなBGM"
+      ]
+    }
+  ],
+  "narration": {
+    "style": "淡々とした語り",
+    "tone": "落ち着いた、客観的",
+    "keywords": [
+      "大山",
+      "登山",
+      "一人旅",
+      "絶景",
+      "困難",
+      "達成感"
+    ]
+  }
+}

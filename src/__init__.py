@@ -1,6 +1,5 @@
-"""動画編集AIエージェントパッケージ
-
-SRTシーンツールの主要機能を提供する
+"""
+SRT Scene Tools package
 """
 
 from .content_crawler import ContentCrawler

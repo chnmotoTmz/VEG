@@ -1,0 +1,62 @@
+{
+  "title": "GoPro 繧｢繧ｯ繝�繧｣繝薙ユ繧｣譏蜒�",
+  "concept": "繧｢繧ｯ繝�繧｣繝悶↑迸ｬ髢薙ｒ謐峨∴縺滓丐蜒城寔",
+  "themes": ["繧｢繧ｯ繧ｷ繝ｧ繝ｳ", "繧｢繧ｦ繝医ラ繧｢", "繧ｹ繝昴�ｼ繝�"],
+  "sections": [
+    {
+      "section_id": "intro",
+      "type": "intro",
+      "title": "繧､繝ｳ繝医Ο繝繧ｯ繧ｷ繝ｧ繝ｳ",
+      "description": "繧｢繧ｯ繝�繧｣繝薙ユ繧｣縺ｮ讎りｦ√す繝ｼ繝ｳ",
+      "key_messages": ["豢ｻ蜍慕噪縺ｪ髮ｰ蝗ｲ豌�", "閾ｪ辟ｶ縺ｨ縺ｮ隱ｿ蜥�"],
+      "duration": 45,
+      "content_ids": [],
+      "effects": ["繧ｯ繝ｭ繧ｹ繝輔ぉ繝ｼ繝�"]
+    },
+    {
+      "section_id": "main_1",
+      "type": "main",
+      "title": "繧｢繧ｯ繝�繧｣繝薙ユ繧｣髢句ｧ�",
+      "description": "貅門ｙ縺九ｉ繧ｹ繧ｿ繝ｼ繝医∪縺ｧ縺ｮ繧ｷ繝ｼ繝ｳ",
+      "key_messages": ["譛溷ｾ�諢�", "繝√Ε繝ｬ繝ｳ繧ｸ邊ｾ逾�"],
+      "duration": 60,
+      "content_ids": [],
+      "effects": ["繧ｫ繝�繝医う繝ｳ"]
+    },
+    {
+      "section_id": "main_2",
+      "type": "main",
+      "title": "繝｡繧､繝ｳ繧｢繧ｯ繧ｷ繝ｧ繝ｳ",
+      "description": "繝繧､繝翫Α繝�繧ｯ縺ｪ蜍輔″縺ｮ繧ｷ繝ｼ繝ｳ",
+      "key_messages": ["繧ｹ繝斐�ｼ繝画─", "霄榊虚諢�"],
+      "duration": 120,
+      "content_ids": [],
+      "effects": ["繧ｹ繝ｭ繝ｼ繝｢繝ｼ繧ｷ繝ｧ繝ｳ", "繧ｫ繝�繝医う繝ｳ"]
+    },
+    {
+      "section_id": "main_3",
+      "type": "main",
+      "title": "繝上う繝ｩ繧､繝�",
+      "description": "譛繧ょ魂雎｡逧�縺ｪ繧｢繧ｯ繧ｷ繝ｧ繝ｳ繧ｷ繝ｼ繝ｳ",
+      "key_messages": ["繧ｯ繝ｩ繧､繝槭ャ繧ｯ繧ｹ", "闊亥･ｮ"],
+      "duration": 45,
+      "content_ids": [],
+      "effects": ["繧ｹ繝ｭ繝ｼ繝｢繝ｼ繧ｷ繝ｧ繝ｳ"]
+    },
+    {
+      "section_id": "outro",
+      "type": "outro",
+      "title": "繧ｨ繝ｳ繝�繧｣繝ｳ繧ｰ",
+      "description": "蜊ｰ雎｡逧�縺ｪ邱繧√￥縺上ｊ縺ｮ繧ｷ繝ｼ繝ｳ",
+      "key_messages": ["驕疲�先─", "諢溷虚"],
+      "duration": 30,
+      "content_ids": [],
+      "effects": ["繝輔ぉ繝ｼ繝峨い繧ｦ繝�"]
+    }
+  ],
+  "narration": {
+    "style": "繝翫メ繝･繝ｩ繝ｫ",
+    "tone": "繧ｨ繝阪Ν繧ｮ繝�繧ｷ繝･",
+    "keywords": ["繧｢繧ｯ繧ｷ繝ｧ繝ｳ", "蜀帝匱", "謖第姶"]
+  }
+} 
